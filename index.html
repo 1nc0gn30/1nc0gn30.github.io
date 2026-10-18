@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Neal Frazier Tech • Sovereign AI Search, Schema.org & 44 Browser-Native DevTools</title>
-  <meta name="description" content="44 zero-telemetry, 100% client-side AI, SEO, AEO Schema.org, Core Web Vitals & Security workstations + 1,000-City Local Trade Lead Engine. One-time lifetime access ($0/mo)." />
-  <meta property="og:title" content="Neal Frazier Tech • Sovereign AI Search & 44 Browser-Native DevTools" />
-  <meta property="og:description" content="Unlock all 44 client-side AI, AEO Schema.org, Core Web Vitals & Security tools ($49 Lifetime) or launch a Done-For-You Local Business AI Search site ($149 One-Time, $0/mo)." />
+  <title>Neal Frazier Tech • Sovereign AI Search, Schema.org &amp; 44 Browser-Native DevTools</title>
+  <meta name="description" content="44 zero-telemetry, 100% client-side AI, SEO, AEO Schema.org, Core Web Vitals &amp; Security workstations + 1,000-City Local Trade Lead Engine. One-time lifetime access ($0/mo)." />
+  <meta property="og:title" content="Neal Frazier Tech • Sovereign AI Search &amp; 44 Browser-Native DevTools" />
+  <meta property="og:description" content="Unlock all 44 client-side AI, AEO Schema.org, Core Web Vitals &amp; Security tools ($49 Lifetime) or launch a Done-For-You Local Business AI Search site ($149 One-Time, $0/mo)." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://1nc0gn30.github.io/" />
-  <meta property="og:image" content="https://city-desk.netlify.app/media/painters/hero.jpg" />
+  <meta property="og:image" content="https://city-desk-studio.netlify.app/media/painters/hero.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@1nc0gn30" />
   <meta name="twitter:creator" content="@1nc0gn30" />
-  <meta name="twitter:image" content="https://city-desk.netlify.app/media/painters/hero.jpg" />
+  <meta name="twitter:image" content="https://city-desk-studio.netlify.app/media/painters/hero.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -33,6 +33,12 @@
         "url": "https://nealfrazier.tech"
       },
       "offers": [
+        {
+          "@type": "Offer",
+          "name": "Instant Local AI Search & Lead Booster Pack ($7 Starter)",
+          "price": "7.00",
+          "priceCurrency": "USD"
+        },
         {
           "@type": "Offer",
           "name": "Single Tool Pro Lifetime License",
@@ -96,162 +102,861 @@
 }
   </script>
   <style>
-    :root { --bg: #07090e; --card: rgba(17, 23, 36, 0.82); --border: rgba(255, 255, 255, 0.11); --gold: #f59e0b; --cyan: #06b6d4; --text: #f8fafc; --muted: #94a3b8; }
+    :root {
+      --bg: #07090e;
+      --surface: #0d121d;
+      --surface-elevated: #121929;
+      --border: rgba(255, 255, 255, 0.1);
+      --border-strong: rgba(245, 158, 11, 0.48);
+      --gold: #f59e0b;
+      --gold-light: #fbbf24;
+      --cyan: #38bdf8;
+      --emerald: #22c55e;
+      --sol: #14F195;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --mono: "JetBrains Mono", monospace;
+      --sans: "Inter", system-ui, sans-serif;
+      --display: "Syne", sans-serif;
+      --grotesk: "Space Grotesk", sans-serif;
+    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: "Inter", sans-serif; background: radial-gradient(circle at 15% 10%, rgba(6,182,212,0.14), transparent 38%), radial-gradient(circle at 85% 15%, rgba(245,158,11,0.14), transparent 40%), var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh; }
-    .container { max-width: 1220px; margin: 0 auto; padding: 0 20px; }
-    .funnel-banner { background: linear-gradient(90deg, rgba(245,158,11,0.16), rgba(6,182,212,0.16)); border-bottom: 1px solid rgba(245,158,11,0.35); padding: 12px 20px; text-align: center; font-size: 0.92rem; }
-    .funnel-banner strong { color: #fbbf24; }
-    .funnel-banner a { display: inline-block; margin-left: 10px; padding: 5px 13px; border-radius: 999px; background: #f59e0b; color: #07090e; font-weight: 700; text-decoration: none; font-size: 0.84rem; }
-    header { padding: 48px 0 28px; text-align: center; }
-    .badge { display: inline-block; padding: 6px 14px; border-radius: 999px; background: rgba(6,182,212,0.12); border: 1px solid rgba(6,182,212,0.35); color: #38bdf8; font-family: "Space Grotesk", sans-serif; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 16px; }
-    h1 { font-family: "Syne", sans-serif; font-size: clamp(2rem, 4.5vw, 3.4rem); line-height: 1.12; margin-bottom: 16px; }
-    .sub { color: var(--muted); max-width: 760px; margin: 0 auto 32px; font-size: 1.08rem; }
-    .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 36px; }
-    .tier-card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 26px; display: flex; flex-direction: column; justify-content: space-between; }
-    .tier-card.featured { border-color: rgba(245,158,11,0.65); box-shadow: 0 0 35px rgba(245,158,11,0.12); }
-    .tier-tag { font-family: "Space Grotesk", sans-serif; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: #fbbf24; margin-bottom: 8px; }
-    .tier-title { font-family: "Space Grotesk", sans-serif; font-size: 1.35rem; font-weight: 700; margin-bottom: 8px; }
-    .tier-price { font-family: "Syne", sans-serif; font-size: 2.3rem; font-weight: 800; margin: 10px 0; }
-    .tier-price span { font-size: 0.95rem; color: var(--muted); font-weight: 400; text-decoration: line-through; margin-left: 8px; }
-    .tier-list { list-style: none; margin: 14px 0 22px; color: #cbd5e1; font-size: 0.93rem; }
-    .tier-list li { margin-bottom: 8px; }
-    .btn { display: inline-block; text-align: center; padding: 13px 18px; border-radius: 12px; font-family: "Space Grotesk", sans-serif; font-weight: 700; text-decoration: none; cursor: pointer; border: none; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--sans);
+      background:
+        radial-gradient(circle at 12% 8%, rgba(56, 189, 248, 0.11), transparent 36%),
+        radial-gradient(circle at 88% 12%, rgba(245, 158, 11, 0.11), transparent 38%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    .funnel-banner {
+      background: linear-gradient(90deg, rgba(13, 18, 29, 0.98), rgba(22, 30, 46, 0.98));
+      border-bottom: 1px solid rgba(245, 158, 11, 0.38);
+      padding: 10px 18px;
+      text-align: center;
+      font-size: 0.86rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 8px 12px;
+    }
+    .funnel-banner strong { color: var(--gold-light); }
+    .funnel-banner code {
+      font-family: var(--mono);
+      background: rgba(245, 158, 11, 0.16);
+      color: var(--gold-light);
+      padding: 2px 7px;
+      border-radius: 4px;
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      font-weight: 700;
+    }
+    .banner-pills {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+      justify-content: center;
+    }
+    .banner-pill {
+      display: inline-block;
+      padding: 4px 11px;
+      border-radius: 999px;
+      font-family: var(--grotesk);
+      font-weight: 700;
+      font-size: 0.78rem;
+      text-decoration: none;
+      transition: transform 0.15s ease;
+    }
+    .banner-pill:hover { transform: translateY(-1px); }
+    .banner-pill.emerald { background: #16a34a; color: #ffffff; }
+    .banner-pill.gold { background: var(--gold); color: #07090e; }
+    .banner-pill.cyan { background: rgba(56, 189, 248, 0.16); color: var(--cyan); border: 1px solid rgba(56, 189, 248, 0.4); }
+
+    .foundry-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(7, 9, 14, 0.88);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .foundry-nav-inner {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .brand-id {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .brand-mark {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--emerald);
+      box-shadow: 0 0 10px var(--emerald);
+    }
+    .brand-name {
+      font-family: var(--grotesk);
+      font-weight: 700;
+      font-size: 0.96rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .brand-tag {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .nav-link {
+      font-family: var(--grotesk);
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #cbd5e1;
+      text-decoration: none;
+      padding: 6px 11px;
+      border-radius: 8px;
+      border: 1px solid transparent;
+    }
+    .nav-link:hover {
+      color: var(--text);
+      border-color: var(--border);
+      background: rgba(255, 255, 255, 0.04);
+    }
+    .nav-cta {
+      font-family: var(--grotesk);
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 7px 13px;
+      border-radius: 8px;
+      background: rgba(245, 158, 11, 0.16);
+      border: 1px solid rgba(245, 158, 11, 0.45);
+      color: var(--gold-light);
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .container { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
+
+    /* Hero Bento Section */
+    .hero-bento {
+      display: grid;
+      grid-template-columns: 1.12fr 0.88fr;
+      gap: 24px;
+      padding: 36px 0 32px;
+      align-items: stretch;
+    }
+    .hero-copy-card {
+      background: linear-gradient(160deg, rgba(18, 25, 41, 0.92), rgba(11, 15, 25, 0.96));
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.32);
+      color: var(--cyan);
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      width: fit-content;
+    }
+    h1 {
+      font-family: var(--display);
+      font-size: clamp(1.95rem, 3.6vw, 3.05rem);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+    .hero-sub {
+      color: #cbd5e1;
+      font-size: 1.02rem;
+      margin-bottom: 24px;
+      max-width: 65ch;
+    }
+    .telemetry-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 24px;
+      padding: 14px;
+      background: rgba(7, 9, 14, 0.65);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+    .telemetry-cell {
+      border-left: 2px solid rgba(245, 158, 11, 0.5);
+      padding-left: 10px;
+    }
+    .telemetry-val {
+      font-family: var(--mono);
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
+    }
+    .telemetry-lbl {
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .hero-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    /* Interactive AI Search & ROI Synthesizer Card */
+    .synth-card {
+      background: linear-gradient(165deg, rgba(18, 25, 41, 0.96), rgba(9, 13, 22, 0.98));
+      border: 1px solid rgba(245, 158, 11, 0.42);
+      border-radius: 18px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+    }
+    .synth-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .synth-title {
+      font-family: var(--grotesk);
+      font-size: 0.96rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .synth-live-pill { white-space: nowrap; flex-shrink: 0;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--emerald);
+      background: rgba(34, 197, 94, 0.12);
+      border: 1px solid rgba(34, 197, 94, 0.35);
+      padding: 2px 8px;
+      border-radius: 999px;
+    }
+    .synth-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .synth-field label {
+      display: block;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .synth-field input, .synth-field select {
+      width: 100%;
+      padding: 9px 11px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      background: #07090e;
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 0.86rem;
+    }
+    .synth-metrics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .synth-metric-box {
+      background: rgba(7, 9, 14, 0.8);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+    }
+    .synth-metric-box .k {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+    .synth-metric-box .v {
+      font-family: var(--mono);
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--emerald);
+      font-variant-numeric: tabular-nums;
+    }
+    .code-lock-wrap {
+      position: relative;
+      border-radius: 10px;
+      border: 1px solid rgba(56, 189, 248, 0.28);
+      background: #05070b;
+      padding: 10px 12px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+    .code-preview {
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      line-height: 1.45;
+      color: #7dd3fc;
+      white-space: pre-wrap;
+      word-break: break-all;
+      filter: blur(4.5px);
+      user-select: none;
+      transition: filter 0.25s ease;
+    }
+    body.pro-unlocked .code-preview {
+      filter: none;
+      user-select: text;
+    }
+    .code-lock-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(7, 9, 14, 0.62);
+      backdrop-filter: blur(2px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 12px;
+      gap: 6px;
+    }
+    body.pro-unlocked .code-lock-overlay { display: none; }
+
+    /* Section Headers */
+    .section-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 20px 0 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-head h2 {
+      font-family: var(--display);
+      font-size: clamp(1.35rem, 2.4vw, 1.8rem);
+      line-height: 1.15;
+    }
+    .section-head p {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    /* Pricing Grids */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-bottom: 36px;
+    }
+    .tier-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+    .tier-card.featured {
+      background: linear-gradient(165deg, rgba(24, 33, 52, 0.96), rgba(13, 18, 29, 0.98));
+      border-color: rgba(245, 158, 11, 0.65);
+      box-shadow: 0 12px 36px rgba(245, 158, 11, 0.1);
+    }
+    .tier-tag {
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--gold-light);
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    .tier-title {
+      font-family: var(--grotesk);
+      font-size: 1.24rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 8px;
+    }
+    .tier-price {
+      font-family: var(--grotesk);
+      font-size: 2.25rem;
+      font-weight: 800;
+      margin: 10px 0;
+      font-variant-numeric: tabular-nums;
+    }
+    .tier-price span {
+      font-family: var(--mono);
+      font-size: 0.92rem;
+      color: var(--muted);
+      font-weight: 400;
+      text-decoration: line-through;
+      margin-left: 8px;
+    }
+    .tier-list {
+      list-style: none;
+      margin: 12px 0 20px;
+      color: #cbd5e1;
+      font-size: 0.9rem;
+    }
+    .tier-list li {
+      margin-bottom: 8px;
+      padding-left: 18px;
+      position: relative;
+    }
+    .tier-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--emerald);
+      font-weight: 700;
+    }
+
+    .btn {
+      display: inline-block;
+      text-align: center;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-family: var(--grotesk);
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-emerald { background: linear-gradient(135deg, #16a34a, #15803d); color: #ffffff; }
     .btn-gold { background: linear-gradient(135deg, #f59e0b, #eab308); color: #07090e; }
     .btn-cyan { background: linear-gradient(135deg, #06b6d4, #0ea5e9); color: #07090e; }
     .btn-purple { background: linear-gradient(135deg, #9945FF, #14F195); color: #07090e; }
-    .btn-outline { border: 1px solid rgba(255,255,255,0.2); color: var(--text); background: rgba(255,255,255,0.04); }
-    .phantom-bar { background: linear-gradient(135deg, rgba(153,69,255,0.15), rgba(20,241,149,0.12)); border: 1px solid rgba(20,241,149,0.4); border-radius: 18px; padding: 22px 26px; margin-bottom: 44px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
-    .phantom-wallet-box { font-family: monospace; background: rgba(7,9,14,0.85); border: 1px solid rgba(255,255,255,0.16); padding: 8px 14px; border-radius: 10px; color: #14F195; font-size: 0.88rem; word-break: break-all; }
-    .catalog-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
-    .auditor-input { padding: 12px 16px; border-radius: 12px; border: 1px solid var(--border); background: rgba(7,9,14,0.9); color: var(--text); font-size: 0.95rem; width: 320px; max-width: 100%; }
-    .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(275px, 1fr)); gap: 16px; margin-bottom: 60px; }
-    .tool-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 14px; }
-    .tool-card h3 { font-family: "Space Grotesk", sans-serif; font-size: 1.08rem; }
+    .btn-outline {
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    /* Solana Phantom Treasury Bar */
+    .phantom-bar {
+      background: linear-gradient(135deg, rgba(153, 69, 255, 0.13), rgba(13, 18, 29, 0.96), rgba(20, 241, 149, 0.11));
+      border: 1px solid rgba(20, 241, 149, 0.4);
+      border-radius: 16px;
+      padding: 22px 24px;
+      margin-bottom: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .phantom-wallet-box {
+      font-family: var(--mono);
+      background: rgba(7, 9, 14, 0.9);
+      border: 1px solid rgba(20, 241, 149, 0.35);
+      padding: 9px 14px;
+      border-radius: 8px;
+      color: var(--sol);
+      font-size: 0.85rem;
+      word-break: break-all;
+    }
+
+    /* 44 Workstations Catalog */
+    .catalog-controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .filter-pill {
+      padding: 7px 13px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: #cbd5e1;
+      font-family: var(--grotesk);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .filter-pill.active {
+      background: var(--gold);
+      color: #07090e;
+      border-color: var(--gold);
+      font-weight: 700;
+    }
+    .auditor-input {
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: #07090e;
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 0.9rem;
+      width: 310px;
+      max-width: 100%;
+    }
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+      gap: 14px;
+      margin-bottom: 56px;
+    }
+    .tool-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 14px;
+      transition: border-color 0.15s ease;
+    }
+    .tool-card:hover { border-color: rgba(56, 189, 248, 0.45); }
+    .tool-slug {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--cyan);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+    }
+    .tool-card h3 {
+      font-family: var(--grotesk);
+      font-size: 1.06rem;
+      font-weight: 700;
+    }
     .tool-actions { display: flex; gap: 8px; }
-    .tool-actions a { flex: 1; font-size: 0.84rem; padding: 9px 10px; }
-    footer { border-top: 1px solid var(--border); padding: 28px 0 44px; text-align: center; color: var(--muted); font-size: 0.9rem; }
-    footer a { color: #38bdf8; text-decoration: none; }
+    .tool-actions a { flex: 1; font-size: 0.82rem; padding: 9px 10px; }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 0 44px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    footer a { color: var(--cyan); text-decoration: none; }
+
+    @media (max-width: 980px) {
+      .hero-bento { grid-template-columns: 1fr; }
+      .pricing-grid { grid-template-columns: 1fr; }
+      .telemetry-strip { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 600px) {
+      .funnel-banner { padding: 7px 12px; font-size: 0.78rem; gap: 5px; }
+      .banner-pill.cyan { display: none; }
+      .nav-links .nav-link:nth-child(2), .nav-links .nav-link:nth-child(3) { display: none; }
+      .hero-bento { padding: 18px 0 24px; }
+      .hero-copy-card, .synth-card, .tier-card { padding: 20px; }
+      .synth-grid, .synth-metrics { grid-template-columns: 1fr; }
+      .foundry-nav-inner { padding: 10px 14px; }
+      .auditor-input { width: 100%; }
+    }
   </style>
 </head>
 <body>
   <div class="funnel-banner">
-    ⚡ <strong>FOUNDING SPRINT FLASH SALE:</strong> Promo code <code>FOUNDER25</code> takes <strong>25% OFF</strong> any license or custom build!
-    <a href="https://buy.stripe.com/fZu00i7s9gWA3Ha4Ocfw40W" style="color:#4ade80;font-weight:800;">★ $7 Flash AI + HTML Pack →</a>
-    <a href="https://buy.stripe.com/eVq14m5k16hW4Le0xWfw40M">All 44 Tools ($49) →</a>
-    <a href="https://buy.stripe.com/00w8wO6o50XC2D60xWfw40S">AI Receptionist Setup ($299) →</a>
-    <a href="https://buy.stripe.com/3cIcN48wdbCgelOeoMfw40T">Turnkey 5-Page Launch ($499) →</a>
+    <span>★ <strong>FOUNDING SPRINT FLASH SALE:</strong> Promo code <code>FOUNDER25</code> takes <strong>25% OFF</strong> any license or custom build</span>
+    <div class="banner-pills">
+      <a class="banner-pill emerald" href="https://buy.stripe.com/fZu00i7s9gWA3Ha4Ocfw40W">★ $7 Flash AI + HTML Pack →</a>
+      <a class="banner-pill gold" href="https://buy.stripe.com/eVq14m5k16hW4Le0xWfw40M">All 44 Tools ($49) →</a>
+      <a class="banner-pill cyan" href="https://buy.stripe.com/9B6fZg7s96hWa5ya8wfw40O">Done-For-You Launch ($149) →</a>
+      <a class="banner-pill cyan" href="https://buy.stripe.com/3cIcN48wdbCgelOeoMfw40T">5-Page Turnkey ($499) →</a>
+    </div>
   </div>
+
+  <nav class="foundry-nav" aria-label="Primary Navigation">
+    <div class="foundry-nav-inner">
+      <a class="brand-id" href="/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Neal Frazier Tech</span>
+        <span class="brand-tag" id="proStatusBadge">SOVEREIGN FOUNDRY v4.2</span>
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" href="#synthesizer">Live AI + ROI Lab</a>
+        <a class="nav-link" href="#self-serve-tiers">Starter &amp; Pro Tiers</a>
+        <a class="nav-link" href="#custom-builds">Turnkey Builds</a>
+        <a class="nav-link" href="#workstations">All 44 Apps</a>
+        <a class="nav-link" href="https://city-desk-studio.netlify.app" target="_blank" rel="noopener">1,000-City Directory ↗</a>
+        <button type="button" class="nav-cta" onclick="window.openVipOnboardingModal()">★ Already Paid? VIP Unlock</button>
+      </div>
+    </div>
+  </nav>
+
   <div class="container">
-    <header>
-      <div class="badge">Neal Frazier Tech • Sovereign AI, Custom Builds & Local Search Foundry</div>
-      <h1>44 Client-Side AI & SEO Studios + Turnkey Custom AI & Web Builds</h1>
-      <p class="sub">Zero monthly subscriptions ($0/mo forever). Instant browser-native tools, Done-For-You Local AI Search sites, 24/7 AI Receptionists, and Custom Autonomous AI Agent Swarms — payable via Stripe or Phantom Solana Wallet.</p>
-    </header>
-    <section class="pricing-grid" aria-label="Self-Serve & Starter Tiers">
-      <div class="tier-card" style="border-color:rgba(34,197,94,0.5);">
+    <section class="hero-bento" id="synthesizer" aria-label="Sovereign Foundry Hero &amp; Live AI Search Synthesizer">
+      <div class="hero-copy-card">
         <div>
-          <div class="tier-tag" style="color:#4ade80;">★ $7 Flash Starter • Instant Download</div>
-          <div class="tier-title">Instant Local AI Search & Lead Booster Pack (HTML5 + Schema + llms.txt)</div>
-          <div class="tier-price">$7 <span>$79</span></div>
-          <ul class="tier-list">
-            <li>✓ Mobile-first HTML5 landing page for your city & trade</li>
-            <li>✓ Interactive 60-second instant quote calculator snippet</li>
-            <li>✓ Pre-wired Schema.org LocalBusiness + FAQPage + llms.txt</li>
-            <li>✓ Instant 1-click download right after checkout ($0/mo forever)</li>
-          </ul>
+          <div class="eyebrow">★ Zero-Telemetry Architecture • $0/Month Hosting Forever</div>
+          <h1>44 Client-Side AI &amp; SEO Workstations + Turnkey Local Web &amp; AI Builds</h1>
+          <p class="hero-sub">Replace bloated $299/month agency retainers and SaaS subscriptions with sub-second static HTML5 architecture, verified <code>Schema.org</code> JSON-LD graphs for ChatGPT &amp; Google AI Overviews, 24/7 AI Quote Bots, and 44 browser-native engineering tools.</p>
+          <div class="telemetry-strip">
+            <div class="telemetry-cell">
+              <div class="telemetry-val">44 Apps</div>
+              <div class="telemetry-lbl">100% In-Browser</div>
+            </div>
+            <div class="telemetry-cell">
+              <div class="telemetry-val">1,000+</div>
+              <div class="telemetry-lbl">City Trade Pages</div>
+            </div>
+            <div class="telemetry-cell">
+              <div class="telemetry-val">100 / 100</div>
+              <div class="telemetry-lbl">Core Web Vitals</div>
+            </div>
+            <div class="telemetry-cell">
+              <div class="telemetry-val">$0 / Mo</div>
+              <div class="telemetry-lbl">Lifetime Ownership</div>
+            </div>
+          </div>
         </div>
-        <div style="display:flex;flex-direction:column;gap:8px;">
-          <a class="btn btn-gold" href="https://buy.stripe.com/fZu00i7s9gWA3Ha4Ocfw40W" style="background:linear-gradient(135deg,#16a34a,#15803d);color:#fff;">⚡ Get $7 Instant AI + HTML Pack →</a>
-          <a class="btn btn-outline" href="https://buy.stripe.com/6oU7sK3bTcGk5Pia8wfw40N" style="font-size:0.8rem;padding:7px;">Or Full Multi-City Bundle ($19) →</a>
+        <div class="hero-cta-row">
+          <a class="btn btn-emerald" href="https://buy.stripe.com/fZu00i7s9gWA3Ha4Ocfw40W">★ Get $7 Instant AI + HTML Pack →</a>
+          <a class="btn btn-gold" href="https://buy.stripe.com/eVq14m5k16hW4Le0xWfw40M">Unlock All 44 Tools ($49) →</a>
+          <a class="btn btn-cyan" href="https://buy.stripe.com/9B6fZg7s96hWa5ya8wfw40O">Done-For-You Site ($149) →</a>
+          <a class="btn btn-outline" href="https://city-desk-studio.netlify.app" target="_blank" rel="noopener">Explore City Desk Previews ↗</a>
         </div>
       </div>
-      <div class="tier-card featured">
+
+      <div class="synth-card">
         <div>
-          <div class="tier-tag">★ Most Popular For Agencies & Developers</div>
-          <div class="tier-title">All-Access Sovereign Pro Bundle (All 44 Tools)</div>
-          <div class="tier-price">$49 <span>$299</span></div>
-          <ul class="tier-list">
-            <li>✓ Lifetime commercial unlock for all 44 web apps below</li>
-            <li>✓ AEO Knowledge Graph Engine + CWV Speed Studio + Robots Auditor</li>
-            <li>✓ EnvGuard Vault + MCP Lens + 8 AI Agent Security Sentinels</li>
-            <li>✓ Unlimited client site audits & white-label exports ($0/mo)</li>
-          </ul>
+          <div class="synth-header">
+            <span class="synth-title">✦ Live AI Search &amp; ROI Synthesizer</span>
+            <span class="synth-live-pill">● CLIENT-SIDE ENGINE</span>
+          </div>
+          <div class="synth-grid">
+            <div class="synth-field">
+              <label for="synBiz">Business or Project Name</label>
+              <input id="synBiz" type="text" value="Apex Service Pros" oninput="window.runFoundrySynth()" />
+            </div>
+            <div class="synth-field">
+              <label for="synCity">City, State or Niche</label>
+              <input id="synCity" type="text" value="McLean, VA • Roofing &amp; Exterior" oninput="window.runFoundrySynth()" />
+            </div>
+            <div class="synth-field">
+              <label for="synTicket">Avg. Client / Job Value ($)</label>
+              <input id="synTicket" type="number" min="50" max="50000" value="650" oninput="window.runFoundrySynth()" />
+            </div>
+            <div class="synth-field">
+              <label for="synLeads">Extra Leads Captured / Mo: <strong id="synLeadsVal" style="color:var(--gold-light);">6</strong></label>
+              <input id="synLeads" type="range" min="1" max="30" value="6" oninput="window.runFoundrySynth()" style="accent-color:var(--gold);padding:0;margin-top:8px;" />
+            </div>
+          </div>
+          <div class="synth-metrics">
+            <div class="synth-metric-box">
+              <div class="k">Projected Monthly Lift</div>
+              <div class="v" id="synRevOut">+$3,900/mo</div>
+            </div>
+            <div class="synth-metric-box">
+              <div class="k">3-Yr Agency Fee Savings</div>
+              <div class="v" style="color:var(--gold-light);">$10,764</div>
+            </div>
+          </div>
+          <div class="code-lock-wrap">
+            <pre class="code-preview" id="synSchemaCode">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Apex Service Pros",
+  "areaServed": "McLean, VA • Roofing &amp; Exterior",
+  "priceRange": "$$",
+  "potentialAction": { "@type": "ReserveAction", "target": "https://apexservicepros.com/#estimator" }
+}</pre>
+            <div class="code-lock-overlay">
+              <div style="font-family:var(--grotesk);font-weight:700;font-size:0.86rem;color:var(--text);">★ Pro Schema.org + llms.txt + Quote Calculator Bundle</div>
+              <div style="font-size:0.76rem;color:#cbd5e1;max-width:340px;">Unlock the complete production HTML5 template, Schema.org graph &amp; 44 tools:</div>
+              <div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:4px;">
+                <a class="btn btn-emerald" style="padding:7px 12px;font-size:0.78rem;" href="https://buy.stripe.com/fZu00i7s9gWA3Ha4Ocfw40W">★ Unlock $7 Pack →</a>
+                <a class="btn btn-gold" style="padding:7px 12px;font-size:0.78rem;" href="https://buy.stripe.com/9B6fZg7s96hWa5ya8wfw40O">$149 Done-For-You →</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <a class="btn btn-gold" href="https://buy.stripe.com/eVq14m5k16hW4Le0xWfw40M">Unlock All 44 Tools ($49 Lifetime) →</a>
-      </div>
-      <div class="tier-card">
-        <div>
-          <div class="tier-tag">Turnkey 24-Hour White-Glove Setup</div>
-          <div class="tier-title">Done-For-You Custom Website + AI Search Launch</div>
-          <div class="tier-price">$149 <span>$499</span></div>
-          <ul class="tier-list">
-            <li>✓ We customize your logo, brand colors, phone & pricing</li>
-            <li>✓ Custom Schema.org LocalBusiness JSON-LD for ChatGPT & Google</li>
-            <li>✓ Connected to your custom domain on global edge CDN</li>
-            <li>✓ $0/month hosting forever + 100% satisfaction guarantee</li>
-          </ul>
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;font-size:0.78rem;color:var(--muted);">
+          <span>Promo code <code>FOUNDER25</code> saves 25% at Stripe</span>
+          <button type="button" onclick="window.openVipOnboardingModal()" style="background:none;border:none;color:var(--cyan);font-weight:700;cursor:pointer;font-size:0.78rem;">Have a License Key? Activate →</button>
         </div>
-        <a class="btn btn-cyan" href="https://buy.stripe.com/9B6fZg7s96hWa5ya8wfw40O">Order Done-For-You Launch ($149) →</a>
       </div>
     </section>
 
-    <div style="margin-bottom:14px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
-      <h2 style="font-family:'Syne',sans-serif;font-size:1.65rem;color:#fbbf24;">⚡ High-Impact Custom AI & Turnkey Web Builds (48h–5d Delivery • $0/mo Forever)</h2>
-      <span style="font-size:0.88rem;color:#94a3b8;">Reserve your custom build slot via Stripe or Phantom Solana Wallet</span>
+    <div class="section-head" id="self-serve-tiers">
+      <div>
+        <h2>Instant Self-Serve &amp; 24-Hour Done-For-You Launch Tiers</h2>
+        <p>One-time checkout via Stripe or Solana — zero recurring monthly subscriptions forever.</p>
+      </div>
+      <span style="font-family:var(--mono);font-size:0.8rem;color:var(--gold-light);">CODE: FOUNDER25 (25% OFF)</span>
     </div>
-    <section class="pricing-grid" aria-label="Custom Build & Concierge Tiers">
+
+    <section class="pricing-grid" aria-label="Self-Serve &amp; Starter Tiers">
+      <div class="tier-card" style="border-color:rgba(34,197,94,0.5);">
+        <div>
+          <div class="tier-tag" style="color:#4ade80;">★ $7 Flash Starter • Instant Download</div>
+          <div class="tier-title">Instant Local AI Search &amp; Lead Booster Pack (HTML5 + Schema + llms.txt)</div>
+          <div class="tier-price">$7 <span>$79</span></div>
+          <ul class="tier-list">
+            <li>Mobile-first HTML5 landing page for your city &amp; trade</li>
+            <li>Interactive 60-second instant quote calculator snippet</li>
+            <li>Pre-wired Schema.org LocalBusiness + FAQPage + llms.txt</li>
+            <li>Instant 1-click download right after checkout ($0/mo forever)</li>
+          </ul>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          <a class="btn btn-emerald" href="https://buy.stripe.com/fZu00i7s9gWA3Ha4Ocfw40W">★ Get $7 Instant AI + HTML Pack →</a>
+          <a class="btn btn-outline" href="https://buy.stripe.com/6oU7sK3bTcGk5Pia8wfw40N" style="font-size:0.8rem;padding:8px;">Or Full Multi-City Bundle ($19) →</a>
+        </div>
+      </div>
+
+      <div class="tier-card featured">
+        <div>
+          <div class="tier-tag">★ Most Popular For Agencies &amp; Developers</div>
+          <div class="tier-title">All-Access Sovereign Pro Bundle (All 44 Tools)</div>
+          <div class="tier-price">$49 <span>$299</span></div>
+          <ul class="tier-list">
+            <li>Lifetime commercial unlock for all 44 web apps below</li>
+            <li>AEO Knowledge Graph Engine + CWV Speed Studio + Robots Auditor</li>
+            <li>EnvGuard Vault + MCP Lens + 8 AI Agent Security Sentinels</li>
+            <li>Unlimited client site audits &amp; white-label exports ($0/mo)</li>
+          </ul>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          <a class="btn btn-gold" href="https://buy.stripe.com/eVq14m5k16hW4Le0xWfw40M">Unlock All 44 Tools ($49 Lifetime) →</a>
+          <a class="btn btn-outline" href="/solutions/agency-white-label-seo-aeo-bundle.html" style="font-size:0.8rem;padding:8px;">View Agency White-Label Spec →</a>
+        </div>
+      </div>
+
+      <div class="tier-card" style="border-color:rgba(56,189,248,0.45);">
+        <div>
+          <div class="tier-tag" style="color:var(--cyan);">Turnkey 24-Hour White-Glove Setup</div>
+          <div class="tier-title">Done-For-You Custom Website + AI Search Launch</div>
+          <div class="tier-price">$149 <span>$499</span></div>
+          <ul class="tier-list">
+            <li>We customize your logo, brand colors, phone &amp; pricing</li>
+            <li>Custom Schema.org LocalBusiness JSON-LD for ChatGPT &amp; Google</li>
+            <li>Connected to your custom domain on global edge CDN</li>
+            <li>$0/month hosting forever + 100% satisfaction guarantee</li>
+          </ul>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          <a class="btn btn-cyan" href="https://buy.stripe.com/9B6fZg7s96hWa5ya8wfw40O">Order Done-For-You Launch ($149) →</a>
+          <a class="btn btn-outline" href="/solutions/done-for-you-contractor-website-launch.html" style="font-size:0.8rem;padding:8px;">View 24-Hour Launch Deliverables →</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-head" id="custom-builds">
+      <div>
+        <h2>High-Impact Custom AI &amp; Turnkey Web Builds (48h–5d Delivery • $0/mo Forever)</h2>
+        <p>Reserve your build outright or start any custom package with a $99 Risk-Free Kickoff Deposit.</p>
+      </div>
+      <a href="/solutions/custom-build-deposit-99.html" style="font-family:var(--grotesk);font-size:0.86rem;color:var(--gold-light);font-weight:700;text-decoration:none;">✦ Learn About $99 Risk-Free Deposit →</a>
+    </div>
+
+    <section class="pricing-grid" aria-label="Custom Build &amp; Concierge Tiers">
       <div class="tier-card" style="border-color:rgba(6,182,212,0.45);">
         <div>
           <div class="tier-tag" style="color:#38bdf8;">48-Hour Turnkey Delivery</div>
-          <div class="tier-title">24/7 Custom AI Receptionist, Quote Bot & SMS Lead Capture</div>
+          <div class="tier-title">24/7 Custom AI Receptionist, Quote Bot &amp; SMS Lead Capture</div>
           <div class="tier-price">$299 <span>$999</span></div>
           <ul class="tier-list">
-            <li>✓ Custom-trained on your exact services, pricing & service areas</li>
-            <li>✓ Answers customer questions & calculates instant estimates 24/7</li>
-            <li>✓ Instant SMS & email lead dispatch to your phone on every quote</li>
-            <li>✓ Drops onto any existing site in 1 line of code ($0/mo forever)</li>
+            <li>Custom-trained on your exact services, pricing &amp; service areas</li>
+            <li>Answers customer questions &amp; calculates instant estimates 24/7</li>
+            <li>Instant SMS &amp; email lead dispatch to your phone on every quote</li>
+            <li>Drops onto any existing site in 1 line of code ($0/mo forever)</li>
           </ul>
         </div>
         <div style="display:flex;flex-direction:column;gap:8px;">
           <a class="btn btn-cyan" href="https://buy.stripe.com/00w8wO6o50XC2D60xWfw40S">Order AI Receptionist Build ($299) →</a>
-          <a class="btn btn-outline" href="https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V" style="font-size:0.84rem;padding:9px;border-color:#38bdf8;color:#38bdf8;">🔒 Or Start with $99 Kickoff Deposit (Pay Balance After Preview) →</a>
-          <a class="btn btn-outline" href="/solutions/ai-receptionist-299.html" style="font-size:0.8rem;padding:7px;">View Full Spec & ROI Demo →</a>
+          <a class="btn btn-outline" href="https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V" style="font-size:0.82rem;padding:9px;border-color:#38bdf8;color:#38bdf8;">✦ Or Start with $99 Kickoff Deposit →</a>
+          <a class="btn btn-outline" href="/solutions/ai-receptionist-299.html" style="font-size:0.8rem;padding:7px;">View Full Spec &amp; ROI Calculator →</a>
         </div>
       </div>
+
       <div class="tier-card featured">
         <div>
-          <div class="tier-tag">★ Best Value For Contractors, Medical, Legal & Local Brands</div>
-          <div class="tier-title">Turnkey 5-Page Custom Website + Google Maps & AI Dominance</div>
+          <div class="tier-tag">★ Best Value For Contractors, Medical, Legal &amp; Local Brands</div>
+          <div class="tier-title">Turnkey 5-Page Custom Website + Google Maps &amp; AI Dominance</div>
           <div class="tier-price">$499 <span>$1,999</span></div>
           <ul class="tier-list">
-            <li>✓ 5 custom high-converting pages (Home, Services, Calculator, Reviews, Contact)</li>
-            <li>✓ Full Schema.org LocalBusiness + Service + FAQPage graph for ChatGPT & Google</li>
-            <li>✓ 100/100 Core Web Vitals speed + 24/7 AI Quote Bot included</li>
-            <li>✓ Deployed to your domain in 72 hours with $0/month hosting forever</li>
+            <li>5 custom high-converting pages (Home, Services, Calculator, Reviews, Contact)</li>
+            <li>Full Schema.org LocalBusiness + Service + FAQPage graph for ChatGPT &amp; Google</li>
+            <li>100/100 Core Web Vitals speed + 24/7 AI Quote Bot included</li>
+            <li>Deployed to your domain in 72 hours with $0/month hosting forever</li>
           </ul>
         </div>
         <div style="display:flex;flex-direction:column;gap:8px;">
           <a class="btn btn-gold" href="https://buy.stripe.com/3cIcN48wdbCgelOeoMfw40T">Order 5-Page Turnkey Build ($499) →</a>
-          <a class="btn btn-outline" href="https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V" style="font-size:0.84rem;padding:9px;border-color:#fbbf24;color:#fbbf24;">🔒 Or Start with $99 Kickoff Deposit (Pay Balance After Preview) →</a>
-          <a class="btn btn-outline" href="/solutions/custom-5page-launch-499.html" style="font-size:0.8rem;padding:7px;">View Full Spec & Architecture →</a>
+          <a class="btn btn-outline" href="https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V" style="font-size:0.82rem;padding:9px;border-color:#fbbf24;color:#fbbf24;">✦ Or Start with $99 Kickoff Deposit →</a>
+          <a class="btn btn-outline" href="/solutions/custom-5page-launch-499.html" style="font-size:0.8rem;padding:7px;">View Full Spec &amp; Architecture →</a>
         </div>
       </div>
+
       <div class="tier-card" style="border-color:rgba(20,241,149,0.45);">
         <div>
           <div class="tier-tag" style="color:#14F195;">5-Day Custom Engineering Sprint</div>
-          <div class="tier-title">Custom Autonomous AI Agent Swarm, MCP Server & SaaS MVP</div>
+          <div class="tier-title">Custom Autonomous AI Agent Swarm, MCP Server &amp; SaaS MVP</div>
           <div class="tier-price">$997 <span>$3,500</span></div>
           <ul class="tier-list">
-            <li>✓ Custom multi-agent workflow, custom MCP server, or bespoke SaaS web app</li>
-            <li>✓ Connects your CRM, Stripe, Shopify, Etsy, email & internal APIs</li>
-            <li>✓ Zero-egress security boundary + full source code ownership</li>
-            <li>✓ Delivered ready-to-run in 5 business days with 30-day support</li>
+            <li>Custom multi-agent workflow, custom MCP server, or bespoke SaaS web app</li>
+            <li>Connects your CRM, Stripe, Shopify, Etsy, email &amp; internal APIs</li>
+            <li>Zero-egress security boundary + full source code ownership</li>
+            <li>Delivered ready-to-run in 5 business days with 30-day support</li>
           </ul>
         </div>
         <div style="display:flex;flex-direction:column;gap:8px;">
           <a class="btn btn-purple" href="https://buy.stripe.com/14A28qdQxdKo7XqfsQfw40U">Reserve Custom AI Swarm Build ($997) →</a>
-          <a class="btn btn-outline" href="https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V" style="font-size:0.84rem;padding:9px;border-color:#14F195;color:#14F195;">🔒 Or Start with $99 Kickoff Deposit (Pay Balance After Preview) →</a>
+          <a class="btn btn-outline" href="https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V" style="font-size:0.82rem;padding:9px;border-color:#14F195;color:#14F195;">✦ Or Start with $99 Kickoff Deposit →</a>
           <a class="btn btn-outline" href="/solutions/custom-ai-swarm-997.html" style="font-size:0.8rem;padding:7px;">View Custom Engineering Spec →</a>
         </div>
       </div>
@@ -259,26 +964,38 @@
 
     <section class="phantom-bar" aria-label="Phantom Solana Crypto Checkout">
       <div style="flex:1 1 420px;">
-        <div style="font-family:'Space Grotesk',sans-serif;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.08em;color:#14F195;font-weight:700;margin-bottom:4px;">⚡ Instant Web3 / Phantom Solana Settlement (SOL & USDC Accepted)</div>
-        <div style="font-family:'Syne',sans-serif;font-size:1.25rem;font-weight:800;margin-bottom:6px;">Prefer paying in SOL or USDC with Phantom Wallet?</div>
-        <div style="color:#cbd5e1;font-size:0.9rem;margin-bottom:10px;">Send any tier amount ($19, $49, $149, $299, $499, or $997) in SOL or USDC directly to our verified Solana Mainnet treasury address below, or launch the 1-click DePay Solana checkout widget:</div>
+        <div style="font-family:var(--mono);font-size:0.78rem;text-transform:uppercase;letter-spacing:0.08em;color:#14F195;font-weight:700;margin-bottom:4px;">★ Instant Web3 / Phantom Solana Settlement (SOL &amp; USDC Accepted)</div>
+        <div style="font-family:var(--display);font-size:1.25rem;font-weight:800;margin-bottom:6px;">Prefer paying in SOL or USDC with Phantom Wallet?</div>
+        <div style="color:#cbd5e1;font-size:0.9rem;margin-bottom:10px;">Send any tier amount ($7, $19, $49, $99, $149, $299, $499, or $997) in SOL or USDC directly to our verified Solana Mainnet treasury address below, or launch the 1-click DePay Solana checkout widget:</div>
         <div class="phantom-wallet-box" id="solWalletAddr">GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK</div>
       </div>
       <div style="display:flex;flex-direction:column;gap:10px;min-width:250px;">
-        <button class="btn btn-purple" type="button" onclick="navigator.clipboard.writeText('GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK');this.textContent='✓ Copied Solana Address!';setTimeout(()=>this.textContent='📋 Copy Phantom / SOL Address',2500);">📋 Copy Phantom / SOL Address</button>
-        <a class="btn btn-outline" href="https://depay.com/pay?integration=428790dd-7ad1-407c-8ecf-c048c77a4cb8&receiver=GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK" target="_blank" rel="noopener">⚡ Open DePay Solana Checkout ↗</a>
+        <button class="btn btn-purple" type="button" onclick="navigator.clipboard.writeText('GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK');this.textContent='✓ Copied Solana Address!';setTimeout(()=>this.textContent='✦ Copy Phantom / SOL Address',2500);">✦ Copy Phantom / SOL Address</button>
+        <a class="btn btn-outline" href="https://depay.com/pay?integration=428790dd-7ad1-407c-8ecf-c048c77a4cb8&receiver=GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK" target="_blank" rel="noopener">★ Open DePay Solana Checkout ↗</a>
       </div>
     </section>
 
-    <section aria-label="All 44 Browser-Native Workstations">
-      <div class="catalog-header">
-        <h2 style="font-family:'Syne',sans-serif;font-size:1.75rem;">All 44 Live Browser-Native Workstations</h2>
-        <input id="searchInput" class="auditor-input" type="search" placeholder="Filter 44 tools (e.g. SEO, MCP, security, POD)..." />
+    <section id="workstations" aria-label="All 44 Browser-Native Workstations">
+      <div class="section-head">
+        <div>
+          <h2>All 44 Live Browser-Native Workstations</h2>
+          <p>Every tool executes 100% client-side in your browser with zero server uploads.</p>
+        </div>
+      </div>
+      <div class="catalog-controls">
+        <div class="filter-pills" role="tablist" aria-label="Filter Workstations by Category">
+          <button type="button" class="filter-pill active" onclick="window.filterCategory('all', this)">All 44 Workstations</button>
+          <button type="button" class="filter-pill" onclick="window.filterCategory('seo', this)">SEO, AEO &amp; Local</button>
+          <button type="button" class="filter-pill" onclick="window.filterCategory('agent', this)">AI Agents &amp; Security</button>
+          <button type="button" class="filter-pill" onclick="window.filterCategory('pod', this)">E-Commerce &amp; POD</button>
+          <button type="button" class="filter-pill" onclick="window.filterCategory('dev', this)">DevTools &amp; Infra</button>
+        </div>
+        <input id="searchInput" class="auditor-input" type="search" aria-label="Filter 44 tools" placeholder="Search 44 tools (e.g. SEO, MCP, security, POD)..." />
       </div>
       <div id="toolsGrid" class="tools-grid">
-<article class="tool-card" data-name="promptmaster studio promptmaster-studio">
+<article class="tool-card" data-name="promptmaster studio promptmaster-studio agent dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">promptmaster-studio</div>
+    <div class="tool-slug">promptmaster-studio</div>
     <h3>PromptMaster Studio</h3>
   </div>
   <div class="tool-actions">
@@ -286,9 +1003,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/cNiaEWaEldKo6Tm1C0fw40D" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="aeo knowledge graph engine aeo-graph-engine">
+<article class="tool-card" data-name="aeo knowledge graph engine aeo-graph-engine seo">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">aeo-graph-engine</div>
+    <div class="tool-slug">aeo-graph-engine</div>
     <h3>AEO Knowledge Graph Engine</h3>
   </div>
   <div class="tool-actions">
@@ -296,19 +1013,19 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/6oUbJ08wddKoa5y0xWfw40P" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="robots.txt & ai crawler auditor robots-txt-auditor">
+<article class="tool-card" data-name="robots.txt & ai crawler auditor robots-txt-auditor seo">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">robots-txt-auditor</div>
-    <h3>Robots.txt & AI Crawler Auditor</h3>
+    <div class="tool-slug">robots-txt-auditor</div>
+    <h3>Robots.txt &amp; AI Crawler Auditor</h3>
   </div>
   <div class="tool-actions">
     <a class="btn btn-outline" href="https://robots-txt-auditor.netlify.app" target="_blank" rel="noopener">Launch App ↗</a>
     <a class="btn btn-gold" href="https://buy.stripe.com/dRmdR8h2J5dS1z2cgEfw40J" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="cwv speed optimization studio cwv-speed-engine">
+<article class="tool-card" data-name="cwv speed optimization studio cwv-speed-engine seo dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">cwv-speed-engine</div>
+    <div class="tool-slug">cwv-speed-engine</div>
     <h3>CWV Speed Optimization Studio</h3>
   </div>
   <div class="tool-actions">
@@ -316,9 +1033,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/bJe00i13LbCg6Tm2G4fw40Q" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="envguard secrets vault envguard-secrets-vault">
+<article class="tool-card" data-name="envguard secrets vault envguard-secrets-vault agent dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">envguard-secrets-vault</div>
+    <div class="tool-slug">envguard-secrets-vault</div>
     <h3>EnvGuard Secrets Vault</h3>
   </div>
   <div class="tool-actions">
@@ -326,9 +1043,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/00w00i13L8q4dhK1C0fw40R" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="badge3d coin studio badge3d-coin-generator">
+<article class="tool-card" data-name="badge3d coin studio badge3d-coin-generator dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">badge3d-coin-generator</div>
+    <div class="tool-slug">badge3d-coin-generator</div>
     <h3>Badge3D Coin Studio</h3>
   </div>
   <div class="tool-actions">
@@ -336,19 +1053,19 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/14A7sKfYF5dScdGeoMfw40G" target="_blank" rel="noopener">Pro ($15)</a>
   </div>
 </article>
-<article class="tool-card" data-name="city desk (1,000 local trade pages) city-desk">
+<article class="tool-card" data-name="city desk (1,000 local trade pages) city-desk seo">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">city-desk</div>
+    <div class="tool-slug">city-desk</div>
     <h3>City Desk (1,000 Local Trade Pages)</h3>
   </div>
   <div class="tool-actions">
-    <a class="btn btn-outline" href="https://city-desk.netlify.app" target="_blank" rel="noopener">Launch App ↗</a>
+    <a class="btn btn-outline" href="https://city-desk-studio.netlify.app" target="_blank" rel="noopener">Launch App ↗</a>
     <a class="btn btn-gold" href="https://buy.stripe.com/6oU7sK3bTcGk5Pia8wfw40N" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="zoth studio v2 zoth-studio-pro">
+<article class="tool-card" data-name="zoth studio v2 zoth-studio-pro dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">zoth-studio-pro</div>
+    <div class="tool-slug">zoth-studio-pro</div>
     <h3>Zoth Studio v2</h3>
   </div>
   <div class="tool-actions">
@@ -356,9 +1073,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="zothos v3.2 pro foundry zoth-os-pro">
+<article class="tool-card" data-name="zothos v3.2 pro foundry zoth-os-pro dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">zoth-os-pro</div>
+    <div class="tool-slug">zoth-os-pro</div>
     <h3>ZothOS v3.2 Pro Foundry</h3>
   </div>
   <div class="tool-actions">
@@ -366,9 +1083,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/fZu4gyaEleOsb9CdkIfw40K" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="mcp lens inspector mcp-lens">
+<article class="tool-card" data-name="mcp lens inspector mcp-lens agent dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">mcp-lens</div>
+    <div class="tool-slug">mcp-lens</div>
     <h3>MCP Lens Inspector</h3>
   </div>
   <div class="tool-actions">
@@ -376,9 +1093,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="jwt inspector guard jwt-inspector-guard">
+<article class="tool-card" data-name="jwt inspector guard jwt-inspector-guard agent dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">jwt-inspector-guard</div>
+    <div class="tool-slug">jwt-inspector-guard</div>
     <h3>JWT Inspector Guard</h3>
   </div>
   <div class="tool-actions">
@@ -386,9 +1103,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="cron rhythm studio cron-rhythm-studio">
+<article class="tool-card" data-name="cron rhythm studio cron-rhythm-studio dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">cron-rhythm-studio</div>
+    <div class="tool-slug">cron-rhythm-studio</div>
     <h3>Cron Rhythm Studio</h3>
   </div>
   <div class="tool-actions">
@@ -396,9 +1113,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="regex droid builder regex-droid-builder">
+<article class="tool-card" data-name="regex droid builder regex-droid-builder dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">regex-droid-builder</div>
+    <div class="tool-slug">regex-droid-builder</div>
     <h3>Regex Droid Builder</h3>
   </div>
   <div class="tool-actions">
@@ -406,9 +1123,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="pwa manifest builder pwa-manifest-builder">
+<article class="tool-card" data-name="pwa manifest builder pwa-manifest-builder seo dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">pwa-manifest-builder</div>
+    <div class="tool-slug">pwa-manifest-builder</div>
     <h3>PWA Manifest Builder</h3>
   </div>
   <div class="tool-actions">
@@ -416,9 +1133,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="schema illustrator studio schema-illustrator-studio">
+<article class="tool-card" data-name="schema illustrator studio schema-illustrator-studio seo">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">schema-illustrator-studio</div>
+    <div class="tool-slug">schema-illustrator-studio</div>
     <h3>Schema Illustrator Studio</h3>
   </div>
   <div class="tool-actions">
@@ -426,9 +1143,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="payload entropy studio payload-entropy-studio">
+<article class="tool-card" data-name="payload entropy studio payload-entropy-studio dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">payload-entropy-studio</div>
+    <div class="tool-slug">payload-entropy-studio</div>
     <h3>Payload Entropy Studio</h3>
   </div>
   <div class="tool-actions">
@@ -436,9 +1153,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="polyglot framework exporter polyglot-framework-exporter">
+<article class="tool-card" data-name="polyglot framework exporter polyglot-framework-exporter dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">polyglot-framework-exporter</div>
+    <div class="tool-slug">polyglot-framework-exporter</div>
     <h3>Polyglot Framework Exporter</h3>
   </div>
   <div class="tool-actions">
@@ -446,9 +1163,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="web security guard web-security-guard">
+<article class="tool-card" data-name="web security guard web-security-guard agent dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">web-security-guard</div>
+    <div class="tool-slug">web-security-guard</div>
     <h3>Web Security Guard</h3>
   </div>
   <div class="tool-actions">
@@ -456,9 +1173,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="vector search studio vector-search-engine">
+<article class="tool-card" data-name="vector search studio vector-search-engine seo agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">vector-search-engine</div>
+    <div class="tool-slug">vector-search-engine</div>
     <h3>Vector Search Studio</h3>
   </div>
   <div class="tool-actions">
@@ -466,9 +1183,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="agent budget sentinel agent-budget-sentinel">
+<article class="tool-card" data-name="agent budget sentinel agent-budget-sentinel agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">agent-budget-sentinel</div>
+    <div class="tool-slug">agent-budget-sentinel</div>
     <h3>Agent Budget Sentinel</h3>
   </div>
   <div class="tool-actions">
@@ -476,9 +1193,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="agent prompt firewall agent-prompt-firewall">
+<article class="tool-card" data-name="agent prompt firewall agent-prompt-firewall agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">agent-prompt-firewall</div>
+    <div class="tool-slug">agent-prompt-firewall</div>
     <h3>Agent Prompt Firewall</h3>
   </div>
   <div class="tool-actions">
@@ -486,9 +1203,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="agent capability auditor agent-policy-auditor">
+<article class="tool-card" data-name="agent capability auditor agent-policy-auditor agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">agent-policy-auditor</div>
+    <div class="tool-slug">agent-policy-auditor</div>
     <h3>Agent Capability Auditor</h3>
   </div>
   <div class="tool-actions">
@@ -496,9 +1213,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="agent capsule jail agent-capsule-jail">
+<article class="tool-card" data-name="agent capsule jail agent-capsule-jail agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">agent-capsule-jail</div>
+    <div class="tool-slug">agent-capsule-jail</div>
     <h3>Agent Capsule Jail</h3>
   </div>
   <div class="tool-actions">
@@ -506,9 +1223,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="agent egress sentinel agent-egress-sentinel">
+<article class="tool-card" data-name="agent egress sentinel agent-egress-sentinel agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">agent-egress-sentinel</div>
+    <div class="tool-slug">agent-egress-sentinel</div>
     <h3>Agent Egress Sentinel</h3>
   </div>
   <div class="tool-actions">
@@ -516,9 +1233,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="agent gods eye agent-gods-eye">
+<article class="tool-card" data-name="agent gods eye agent-gods-eye agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">agent-gods-eye</div>
+    <div class="tool-slug">agent-gods-eye</div>
     <h3>Agent Gods Eye</h3>
   </div>
   <div class="tool-actions">
@@ -526,9 +1243,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="agent mock twin agent-mock-twin">
+<article class="tool-card" data-name="agent mock twin agent-mock-twin agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">agent-mock-twin</div>
+    <div class="tool-slug">agent-mock-twin</div>
     <h3>Agent Mock Twin</h3>
   </div>
   <div class="tool-actions">
@@ -536,9 +1253,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="agent flight recorder agent-flight-recorder">
+<article class="tool-card" data-name="agent flight recorder agent-flight-recorder agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">agent-flight-recorder</div>
+    <div class="tool-slug">agent-flight-recorder</div>
     <h3>Agent Flight Recorder</h3>
   </div>
   <div class="tool-actions">
@@ -546,9 +1263,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="etsy pod forge etsy-pod-forge">
+<article class="tool-card" data-name="etsy pod forge etsy-pod-forge pod">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">etsy-pod-forge</div>
+    <div class="tool-slug">etsy-pod-forge</div>
     <h3>Etsy POD Forge</h3>
   </div>
   <div class="tool-actions">
@@ -556,9 +1273,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="pod margin sentinel pod-margin-sentinel">
+<article class="tool-card" data-name="pod margin sentinel pod-margin-sentinel pod">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">pod-margin-sentinel</div>
+    <div class="tool-slug">pod-margin-sentinel</div>
     <h3>POD Margin Sentinel</h3>
   </div>
   <div class="tool-actions">
@@ -566,9 +1283,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="pod mockup forge pod-mockup-forge">
+<article class="tool-card" data-name="pod mockup forge pod-mockup-forge pod">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">pod-mockup-forge</div>
+    <div class="tool-slug">pod-mockup-forge</div>
     <h3>POD Mockup Forge</h3>
   </div>
   <div class="tool-actions">
@@ -576,9 +1293,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="pod smart router pod-smart-router">
+<article class="tool-card" data-name="pod smart router pod-smart-router pod">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">pod-smart-router</div>
+    <div class="tool-slug">pod-smart-router</div>
     <h3>POD Smart Router</h3>
   </div>
   <div class="tool-actions">
@@ -586,9 +1303,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="storefront catalog storefront-catalog">
+<article class="tool-card" data-name="storefront catalog storefront-catalog pod seo">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">storefront-catalog</div>
+    <div class="tool-slug">storefront-catalog</div>
     <h3>Storefront Catalog</h3>
   </div>
   <div class="tool-actions">
@@ -596,9 +1313,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="subsweep lead scanner subsweep-lead-scanner">
+<article class="tool-card" data-name="subsweep lead scanner subsweep-lead-scanner seo">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">subsweep-lead-scanner</div>
+    <div class="tool-slug">subsweep-lead-scanner</div>
     <h3>SubSweep Lead Scanner</h3>
   </div>
   <div class="tool-actions">
@@ -606,9 +1323,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="anderson security sentinel anderson-security-sentinel">
+<article class="tool-card" data-name="anderson security sentinel anderson-security-sentinel agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">anderson-security-sentinel</div>
+    <div class="tool-slug">anderson-security-sentinel</div>
     <h3>Anderson Security Sentinel</h3>
   </div>
   <div class="tool-actions">
@@ -616,9 +1333,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="osint scout studio osint-scout-skill">
+<article class="tool-card" data-name="osint scout studio osint-scout-skill agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">osint-scout-skill</div>
+    <div class="tool-slug">osint-scout-skill</div>
     <h3>OSINT Scout Studio</h3>
   </div>
   <div class="tool-actions">
@@ -626,9 +1343,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="sacred geometry forge ufo-sacred-geometry">
+<article class="tool-card" data-name="sacred geometry forge ufo-sacred-geometry dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">ufo-sacred-geometry</div>
+    <div class="tool-slug">ufo-sacred-geometry</div>
     <h3>Sacred Geometry Forge</h3>
   </div>
   <div class="tool-actions">
@@ -636,9 +1353,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="digital asset forge digital-asset-forge">
+<article class="tool-card" data-name="digital asset forge digital-asset-forge pod dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">digital-asset-forge</div>
+    <div class="tool-slug">digital-asset-forge</div>
     <h3>Digital Asset Forge</h3>
   </div>
   <div class="tool-actions">
@@ -646,9 +1363,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="neuro-memory studio neuro-memory-daemon">
+<article class="tool-card" data-name="neuro-memory studio neuro-memory-daemon agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">neuro-memory-daemon</div>
+    <div class="tool-slug">neuro-memory-daemon</div>
     <h3>Neuro-Memory Studio</h3>
   </div>
   <div class="tool-actions">
@@ -656,9 +1373,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="agent voice call studio agent-voice-call">
+<article class="tool-card" data-name="agent voice call studio agent-voice-call agent">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">agent-voice-call</div>
+    <div class="tool-slug">agent-voice-call</div>
     <h3>Agent Voice Call Studio</h3>
   </div>
   <div class="tool-actions">
@@ -666,9 +1383,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="etsy api v3 workbench etsy-connector">
+<article class="tool-card" data-name="etsy api v3 workbench etsy-connector pod">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">etsy-connector</div>
+    <div class="tool-slug">etsy-connector</div>
     <h3>Etsy API v3 Workbench</h3>
   </div>
   <div class="tool-actions">
@@ -676,9 +1393,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="shopify graphql workbench shopify-connector">
+<article class="tool-card" data-name="shopify graphql workbench shopify-connector pod">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">shopify-connector</div>
+    <div class="tool-slug">shopify-connector</div>
     <h3>Shopify GraphQL Workbench</h3>
   </div>
   <div class="tool-actions">
@@ -686,9 +1403,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="printify pod workbench printify-connector">
+<article class="tool-card" data-name="printify pod workbench printify-connector pod">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">printify-connector</div>
+    <div class="tool-slug">printify-connector</div>
     <h3>Printify POD Workbench</h3>
   </div>
   <div class="tool-actions">
@@ -696,9 +1413,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="gelato global pod workbench gelato-connector">
+<article class="tool-card" data-name="gelato global pod workbench gelato-connector pod">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">gelato-connector</div>
+    <div class="tool-slug">gelato-connector</div>
     <h3>Gelato Global POD Workbench</h3>
   </div>
   <div class="tool-actions">
@@ -706,9 +1423,9 @@
     <a class="btn btn-gold" href="https://buy.stripe.com/4gMfZg9AheOsdhKbcAfw40L" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
-<article class="tool-card" data-name="sovereign agent bridge sovereign-agent-bridge">
+<article class="tool-card" data-name="sovereign agent bridge sovereign-agent-bridge agent dev">
   <div>
-    <div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:4px;">sovereign-agent-bridge</div>
+    <div class="tool-slug">sovereign-agent-bridge</div>
     <h3>Sovereign Agent Bridge</h3>
   </div>
   <div class="tool-actions">
@@ -718,26 +1435,30 @@
 </article>
       </div>
     </section>
+
     <footer>
       <p>Engineered by Neal Frazier Tech (<a href="https://github.com/1nc0gn30">@1nc0gn30</a>) • <a href="https://nullai.tech">NullAI Platform</a> • <a href="https://www.nealfrazier.tech">nealfrazier.tech</a> • Direct Support: <a href="mailto:neal@nealfrazier.tech">neal@nealfrazier.tech</a> · <a href="tel:7575760980">(757) 576-0980</a></p>
-      <p style="margin-top:8px;"><button onclick="window.openVipOnboardingModal()" style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.45);color:#fbbf24;padding:6px 14px;border-radius:999px;cursor:pointer;font-size:0.82rem;font-weight:700;">🎁 Already Paid? Open VIP Onboarding &amp; Pro License Unlocker</button></p>
+      <p style="margin-top:10px;"><button type="button" onclick="window.openVipOnboardingModal()" style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.45);color:#fbbf24;padding:7px 15px;border-radius:999px;cursor:pointer;font-size:0.82rem;font-weight:700;font-family:var(--grotesk);">★ Already Paid? Open VIP Onboarding &amp; Pro License Unlocker</button></p>
     </footer>
   </div>
 
   <!-- Post-Payment VIP Fulfillment & Custom Build Concierge Modal -->
   <div id="vipOnboardingModal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(7,9,14,0.88);backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:16px;">
     <div style="background:#0f172a;border:1px solid rgba(245,158,11,0.55);box-shadow:0 20px 60px rgba(0,0,0,0.65);border-radius:18px;max-width:580px;width:100%;max-height:92vh;overflow-y:auto;padding:26px;position:relative;color:#f8fafc;">
-      <button onclick="window.closeVipOnboardingModal()" aria-label="Close modal" style="position:absolute;top:14px;right:16px;background:none;border:none;color:#94a3b8;font-size:1.3rem;cursor:pointer;">✕</button>
-      <div style="display:inline-block;padding:4px 12px;border-radius:999px;background:rgba(16,185,129,0.18);border:1px solid rgba(16,185,129,0.45);color:#34d399;font-size:0.75rem;font-weight:700;margin-bottom:10px;">⭐ PRO ACCESS ACTIVE &amp; VIP FULFILLMENT</div>
-      <h2 style="font-family:'Syne',sans-serif;font-size:1.5rem;margin-bottom:6px;">Payment Confirmed — Claim Your Tools &amp; Custom Build</h2>
-      <p style="font-size:0.88rem;color:#94a3b8;margin-bottom:16px;">Your browser is now unlocked with Sovereign Pro Access (Master Key: <code style="color:#fbbf24;background:rgba(245,158,11,0.12);padding:2px 6px;border-radius:4px;">SOVEREIGN-PRO-2026</code>). If you ordered a Done-For-You Website ($149), 24/7 AI Receptionist ($299), 5-Page Build ($499), AI Swarm ($997), or $99 Kickoff Deposit, submit your specs below for priority 48-hour delivery:</p>
+      <button type="button" onclick="window.closeVipOnboardingModal()" aria-label="Close modal" style="position:absolute;top:14px;right:16px;background:none;border:none;color:#94a3b8;font-size:1.3rem;cursor:pointer;">✕</button>
+      <div style="display:inline-block;padding:4px 12px;border-radius:999px;background:rgba(16,185,129,0.18);border:1px solid rgba(16,185,129,0.45);color:#34d399;font-size:0.75rem;font-weight:700;margin-bottom:10px;">★ PRO ACCESS ACTIVE &amp; VIP FULFILLMENT</div>
+      <h2 style="font-family:var(--display);font-size:1.5rem;margin-bottom:6px;">Payment Confirmed — Claim Your Tools &amp; Custom Build</h2>
+      <p style="font-size:0.88rem;color:#94a3b8;margin-bottom:16px;">Your browser can be unlocked instantly with Sovereign Pro Access (Master Key: <code style="color:#fbbf24;background:rgba(245,158,11,0.12);padding:2px 6px;border-radius:4px;">SOVEREIGN-PRO-2026</code>). If you ordered a Done-For-You Website ($149), 24/7 AI Receptionist ($299), 5-Page Build ($499), AI Swarm ($997), or $99 Kickoff Deposit, submit your specs below for priority 48-hour delivery:</p>
 
       <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:14px;margin-bottom:16px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
         <div>
           <div style="font-size:0.75rem;color:#38bdf8;font-weight:700;text-transform:uppercase;">Master License Key (All 44 Tools + City Desk)</div>
-          <div style="font-family:monospace;font-size:1rem;color:#fbbf24;font-weight:700;">SOVEREIGN-PRO-2026</div>
+          <div style="font-family:var(--mono);font-size:1rem;color:#fbbf24;font-weight:700;">SOVEREIGN-PRO-2026</div>
         </div>
-        <button type="button" onclick="window.downloadMasterLicense()" class="btn btn-gold" style="padding:8px 14px;font-size:0.82rem;">💾 Download License Certificate (.json)</button>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <button type="button" onclick="window.activateProInBrowser()" class="btn btn-emerald" style="padding:8px 12px;font-size:0.8rem;">✓ Unlock Browser Now</button>
+          <button type="button" onclick="window.downloadMasterLicense()" class="btn btn-gold" style="padding:8px 12px;font-size:0.8rem;">↓ Download License (.json)</button>
+        </div>
       </div>
 
       <form id="vipSpecsForm" onsubmit="return window.submitVipSpecs(event)" style="display:flex;flex-direction:column;gap:10px;">
@@ -750,15 +1471,15 @@
           <input type="text" id="vipDomain" name="target_domain" placeholder="Target Domain (e.g. mycompany.com)" style="padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.16);background:#07090e;color:#f8fafc;font-size:0.88rem;">
         </div>
         <select id="vipTier" name="package_tier" style="padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.16);background:#07090e;color:#f8fafc;font-size:0.88rem;">
-          <option value="Turnkey 5-Page Custom Website ($499)">🚀 Turnkey 5-Page Custom Website + Local AEO ($499)</option>
-          <option value="24/7 Custom AI Receptionist ($299)">🤖 24/7 Custom AI Receptionist &amp; Quote Bot ($299)</option>
-          <option value="Done-For-You 1-Page Launch ($149)">⚡ Done-For-You 1-Page Custom Website ($149)</option>
-          <option value="Custom Build Kickoff Deposit ($99)">🔒 Custom Build Kickoff Deposit ($99)</option>
-          <option value="Custom AI Agent Swarm / SaaS MVP ($997)">🔥 Custom AI Agent Swarm / SaaS MVP ($997)</option>
-          <option value="All-Access 44 Tools Pro Bundle ($49 / $19)">💎 All-Access 44 Tools Pro Bundle ($49 / $19)</option>
+          <option value="Turnkey 5-Page Custom Website ($499)">★ Turnkey 5-Page Custom Website + Local AEO ($499)</option>
+          <option value="24/7 Custom AI Receptionist ($299)">✦ 24/7 Custom AI Receptionist &amp; Quote Bot ($299)</option>
+          <option value="Done-For-You 1-Page Launch ($149)">★ Done-For-You 1-Page Custom Website ($149)</option>
+          <option value="Custom Build Kickoff Deposit ($99)">✦ Custom Build Kickoff Deposit ($99)</option>
+          <option value="Custom AI Agent Swarm / SaaS MVP ($997)">★ Custom AI Agent Swarm / SaaS MVP ($997)</option>
+          <option value="All-Access 44 Tools Pro Bundle ($49 / $19)">✦ All-Access 44 Tools Pro Bundle ($49 / $19)</option>
         </select>
         <textarea id="vipNotes" name="notes" rows="3" placeholder="Tell us your services, city/service area, brand colors, or custom AI requirements..." style="padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.16);background:#07090e;color:#f8fafc;font-size:0.88rem;"></textarea>
-        <button type="submit" id="vipSpecsSubmitBtn" class="btn btn-cyan" style="padding:12px;font-size:0.95rem;">🚀 Submit Custom Build Onboarding Specs (48h Delivery SLA)</button>
+        <button type="submit" id="vipSpecsSubmitBtn" class="btn btn-cyan" style="padding:12px;font-size:0.95rem;">★ Submit Custom Build Onboarding Specs (48h Delivery SLA) →</button>
       </form>
       <div id="vipSpecsConfirm" style="display:none;margin-top:12px;padding:12px;border-radius:10px;background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.45);color:#a7f3d0;font-size:0.85rem;">
         <strong>✓ Priority Build Ticket Logged!</strong> Neal Frazier has received your specifications and will text/email your live staging link within 24–48 hours. Need immediate assistance? Call/text <a href="tel:7575760980" style="color:#34d399;font-weight:700;">(757) 576-0980</a> or email <a href="mailto:neal@nealfrazier.tech" style="color:#34d399;font-weight:700;">neal@nealfrazier.tech</a>.
@@ -767,6 +1488,40 @@
   </div>
 
   <script>
+    window.runFoundrySynth = function() {
+      var biz = (document.getElementById("synBiz").value || "Apex Service Pros").trim();
+      var city = (document.getElementById("synCity").value || "McLean, VA").trim();
+      var ticket = parseFloat(document.getElementById("synTicket").value) || 650;
+      var leads = parseInt(document.getElementById("synLeads").value, 10) || 6;
+      document.getElementById("synLeadsVal").textContent = String(leads);
+      var monthly = Math.round(ticket * leads);
+      document.getElementById("synRevOut").textContent = "+$" + monthly.toLocaleString() + "/mo";
+      var slug = biz.toLowerCase().replace(/[^a-z0-9]+/g, "") || "localbusiness";
+      var schema = {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": biz,
+        "areaServed": city,
+        "priceRange": "$$",
+        "potentialAction": {
+          "@type": "ReserveAction",
+          "target": "https://" + slug + ".com/#estimator"
+        }
+      };
+      document.getElementById("synSchemaCode").textContent = JSON.stringify(schema, null, 2);
+    };
+
+    window.filterCategory = function(cat, btn) {
+      var pills = document.querySelectorAll(".filter-pill");
+      for (var p = 0; p < pills.length; p++) pills[p].classList.remove("active");
+      if (btn) btn.classList.add("active");
+      var cards = document.querySelectorAll(".tool-card");
+      for (var i = 0; i < cards.length; i++) {
+        var name = cards[i].getAttribute("data-name") || "";
+        cards[i].style.display = (cat === "all" || name.indexOf(cat) !== -1) ? "flex" : "none";
+      }
+    };
+
     document.getElementById("searchInput").addEventListener("input", function(e) {
       var q = e.target.value.trim().toLowerCase();
       var cards = document.querySelectorAll(".tool-card");
@@ -776,6 +1531,19 @@
       }
     });
 
+    window.activateProInBrowser = function() {
+      localStorage.setItem("pro_licensed", "true");
+      localStorage.setItem("city_desk_pro_licensed", "true");
+      localStorage.setItem("zoth_pro_licensed", "true");
+      document.body.classList.add("pro-unlocked");
+      var badge = document.getElementById("proStatusBadge");
+      if (badge) {
+        badge.textContent = "★ PRO ACTIVE";
+        badge.style.color = "#4ade80";
+        badge.style.borderColor = "rgba(74, 222, 128, 0.45)";
+      }
+    };
+
     window.openVipOnboardingModal = function() {
       document.getElementById("vipOnboardingModal").style.display = "flex";
     };
@@ -783,6 +1551,7 @@
       document.getElementById("vipOnboardingModal").style.display = "none";
     };
     window.downloadMasterLicense = function() {
+      window.activateProInBrowser();
       var cert = {
         licenseKey: "SOVEREIGN-PRO-2026",
         cityDeskKey: "CITY-PRO-2026",
@@ -812,7 +1581,6 @@
       var btn = document.getElementById("vipSpecsSubmitBtn");
       if (btn) btn.textContent = "Submitting to Neal Frazier Tech...";
 
-      // Also post to city-desk-studio Netlify form endpoint (CORS-friendly fallback + mailto backup)
       var fd = new URLSearchParams();
       fd.append("form-name", "vip-onboarding");
       fd.append("business_name", biz);
@@ -836,11 +1604,12 @@
     (function() {
       var p = new URLSearchParams(window.location.search);
       if (p.get("licensed") === "true" || p.get("vip") === "true" || p.get("deposit") === "true" || p.get("session_id")) {
-        localStorage.setItem("pro_licensed", "true");
-        localStorage.setItem("city_desk_pro_licensed", "true");
-        localStorage.setItem("zoth_pro_licensed", "true");
+        window.activateProInBrowser();
         window.openVipOnboardingModal();
+      } else if (localStorage.getItem("pro_licensed") === "true") {
+        window.activateProInBrowser();
       }
+      window.runFoundrySynth();
     })();
   </script>
 </body>
