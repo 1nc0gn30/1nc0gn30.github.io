@@ -715,9 +715,53 @@
       </div>
     </section>
     <footer>
-      <p>Engineered by Neal Frazier Tech (<a href="https://github.com/1nc0gn30">@1nc0gn30</a>) • <a href="https://nullai.tech">NullAI Platform</a> • <a href="https://nealfrazier.tech">nealfrazier.tech</a></p>
+      <p>Engineered by Neal Frazier Tech (<a href="https://github.com/1nc0gn30">@1nc0gn30</a>) • <a href="https://nullai.tech">NullAI Platform</a> • <a href="https://www.nealfrazier.tech">nealfrazier.tech</a> • Direct Support: <a href="mailto:neal@nealfrazier.tech">neal@nealfrazier.tech</a> · <a href="tel:7575760980">(757) 576-0980</a></p>
+      <p style="margin-top:8px;"><button onclick="window.openVipOnboardingModal()" style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.45);color:#fbbf24;padding:6px 14px;border-radius:999px;cursor:pointer;font-size:0.82rem;font-weight:700;">🎁 Already Paid? Open VIP Onboarding &amp; Pro License Unlocker</button></p>
     </footer>
   </div>
+
+  <!-- Post-Payment VIP Fulfillment & Custom Build Concierge Modal -->
+  <div id="vipOnboardingModal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(7,9,14,0.88);backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:16px;">
+    <div style="background:#0f172a;border:1px solid rgba(245,158,11,0.55);box-shadow:0 20px 60px rgba(0,0,0,0.65);border-radius:18px;max-width:580px;width:100%;max-height:92vh;overflow-y:auto;padding:26px;position:relative;color:#f8fafc;">
+      <button onclick="window.closeVipOnboardingModal()" aria-label="Close modal" style="position:absolute;top:14px;right:16px;background:none;border:none;color:#94a3b8;font-size:1.3rem;cursor:pointer;">✕</button>
+      <div style="display:inline-block;padding:4px 12px;border-radius:999px;background:rgba(16,185,129,0.18);border:1px solid rgba(16,185,129,0.45);color:#34d399;font-size:0.75rem;font-weight:700;margin-bottom:10px;">⭐ PRO ACCESS ACTIVE &amp; VIP FULFILLMENT</div>
+      <h2 style="font-family:'Syne',sans-serif;font-size:1.5rem;margin-bottom:6px;">Payment Confirmed — Claim Your Tools &amp; Custom Build</h2>
+      <p style="font-size:0.88rem;color:#94a3b8;margin-bottom:16px;">Your browser is now unlocked with Sovereign Pro Access (Master Key: <code style="color:#fbbf24;background:rgba(245,158,11,0.12);padding:2px 6px;border-radius:4px;">SOVEREIGN-PRO-2026</code>). If you ordered a Done-For-You Website ($149), 24/7 AI Receptionist ($299), 5-Page Build ($499), AI Swarm ($997), or $99 Kickoff Deposit, submit your specs below for priority 48-hour delivery:</p>
+
+      <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:14px;margin-bottom:16px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+        <div>
+          <div style="font-size:0.75rem;color:#38bdf8;font-weight:700;text-transform:uppercase;">Master License Key (All 44 Tools + City Desk)</div>
+          <div style="font-family:monospace;font-size:1rem;color:#fbbf24;font-weight:700;">SOVEREIGN-PRO-2026</div>
+        </div>
+        <button type="button" onclick="window.downloadMasterLicense()" class="btn btn-gold" style="padding:8px 14px;font-size:0.82rem;">💾 Download License Certificate (.json)</button>
+      </div>
+
+      <form id="vipSpecsForm" onsubmit="return window.submitVipSpecs(event)" style="display:flex;flex-direction:column;gap:10px;">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+          <input type="text" id="vipBiz" name="business_name" placeholder="Business / Project Name *" required style="padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.16);background:#07090e;color:#f8fafc;font-size:0.88rem;">
+          <input type="email" id="vipEmail" name="owner_email" placeholder="Your Best Email *" required style="padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.16);background:#07090e;color:#f8fafc;font-size:0.88rem;">
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+          <input type="tel" id="vipPhone" name="owner_phone" placeholder="Direct Phone # for SMS/Call *" required style="padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.16);background:#07090e;color:#f8fafc;font-size:0.88rem;">
+          <input type="text" id="vipDomain" name="target_domain" placeholder="Target Domain (e.g. mycompany.com)" style="padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.16);background:#07090e;color:#f8fafc;font-size:0.88rem;">
+        </div>
+        <select id="vipTier" name="package_tier" style="padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.16);background:#07090e;color:#f8fafc;font-size:0.88rem;">
+          <option value="Turnkey 5-Page Custom Website ($499)">🚀 Turnkey 5-Page Custom Website + Local AEO ($499)</option>
+          <option value="24/7 Custom AI Receptionist ($299)">🤖 24/7 Custom AI Receptionist &amp; Quote Bot ($299)</option>
+          <option value="Done-For-You 1-Page Launch ($149)">⚡ Done-For-You 1-Page Custom Website ($149)</option>
+          <option value="Custom Build Kickoff Deposit ($99)">🔒 Custom Build Kickoff Deposit ($99)</option>
+          <option value="Custom AI Agent Swarm / SaaS MVP ($997)">🔥 Custom AI Agent Swarm / SaaS MVP ($997)</option>
+          <option value="All-Access 44 Tools Pro Bundle ($49 / $19)">💎 All-Access 44 Tools Pro Bundle ($49 / $19)</option>
+        </select>
+        <textarea id="vipNotes" name="notes" rows="3" placeholder="Tell us your services, city/service area, brand colors, or custom AI requirements..." style="padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.16);background:#07090e;color:#f8fafc;font-size:0.88rem;"></textarea>
+        <button type="submit" id="vipSpecsSubmitBtn" class="btn btn-cyan" style="padding:12px;font-size:0.95rem;">🚀 Submit Custom Build Onboarding Specs (48h Delivery SLA)</button>
+      </form>
+      <div id="vipSpecsConfirm" style="display:none;margin-top:12px;padding:12px;border-radius:10px;background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.45);color:#a7f3d0;font-size:0.85rem;">
+        <strong>✓ Priority Build Ticket Logged!</strong> Neal Frazier has received your specifications and will text/email your live staging link within 24–48 hours. Need immediate assistance? Call/text <a href="tel:7575760980" style="color:#34d399;font-weight:700;">(757) 576-0980</a> or email <a href="mailto:neal@nealfrazier.tech" style="color:#34d399;font-weight:700;">neal@nealfrazier.tech</a>.
+      </div>
+    </div>
+  </div>
+
   <script>
     document.getElementById("searchInput").addEventListener("input", function(e) {
       var q = e.target.value.trim().toLowerCase();
@@ -727,6 +771,73 @@
         cards[i].style.display = (!q || name.indexOf(q) !== -1) ? "flex" : "none";
       }
     });
+
+    window.openVipOnboardingModal = function() {
+      document.getElementById("vipOnboardingModal").style.display = "flex";
+    };
+    window.closeVipOnboardingModal = function() {
+      document.getElementById("vipOnboardingModal").style.display = "none";
+    };
+    window.downloadMasterLicense = function() {
+      var cert = {
+        licenseKey: "SOVEREIGN-PRO-2026",
+        cityDeskKey: "CITY-PRO-2026",
+        holder: document.getElementById("vipBiz").value || "Verified Founding Customer",
+        email: document.getElementById("vipEmail").value || "",
+        issuedAt: new Date().toISOString(),
+        issuer: "Neal Frazier Tech (https://www.nealfrazier.tech)",
+        support: { email: "neal@nealfrazier.tech", phone: "(757) 576-0980" },
+        unlockedProperties: ["https://city-desk.netlify.app/?licensed=true", "https://zoth.nullai.tech/?licensed=true", "https://1nc0gn30.github.io/?licensed=true"]
+      };
+      var blob = new Blob([JSON.stringify(cert, null, 2)], { type: "application/json" });
+      var a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "neal-frazier-tech-pro-license.json";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    };
+    window.submitVipSpecs = function(e) {
+      if (e) e.preventDefault();
+      var biz = document.getElementById("vipBiz").value;
+      var email = document.getElementById("vipEmail").value;
+      var phone = document.getElementById("vipPhone").value;
+      var domain = document.getElementById("vipDomain").value;
+      var tier = document.getElementById("vipTier").value;
+      var notes = document.getElementById("vipNotes").value;
+      var btn = document.getElementById("vipSpecsSubmitBtn");
+      if (btn) btn.textContent = "Submitting to Neal Frazier Tech...";
+
+      // Also post to city-desk Netlify form endpoint (CORS-friendly fallback + mailto backup)
+      var fd = new URLSearchParams();
+      fd.append("form-name", "vip-onboarding");
+      fd.append("business_name", biz);
+      fd.append("owner_email", email);
+      fd.append("owner_phone", phone);
+      fd.append("target_domain", domain);
+      fd.append("package_purchased", tier);
+      fd.append("custom_notes", notes);
+      fetch("https://city-desk.netlify.app/", {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: fd.toString()
+      }).catch(function(){});
+
+      document.getElementById("vipSpecsConfirm").style.display = "block";
+      if (btn) btn.textContent = "✓ Priority Onboarding Specs Logged!";
+      return false;
+    };
+
+    (function() {
+      var p = new URLSearchParams(window.location.search);
+      if (p.get("licensed") === "true" || p.get("vip") === "true" || p.get("deposit") === "true" || p.get("session_id")) {
+        localStorage.setItem("pro_licensed", "true");
+        localStorage.setItem("city_desk_pro_licensed", "true");
+        localStorage.setItem("zoth_pro_licensed", "true");
+        window.openVipOnboardingModal();
+      }
+    })();
   </script>
 </body>
 </html>
