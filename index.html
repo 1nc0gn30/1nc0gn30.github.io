@@ -50,6 +50,24 @@
           "name": "Done-For-You Custom Local Business Website + AI Search Schema Launch",
           "price": "149.00",
           "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "24/7 Custom AI Receptionist, Instant Quote Bot & SMS Lead Capture Setup (48-Hour Delivery)",
+          "price": "299.00",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Turnkey 5-Page Custom Website + Google Maps & AI Search Dominance Package (72-Hour Delivery)",
+          "price": "499.00",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Custom Autonomous AI Agent Swarm, MCP Server & B2B Workflow Automation Build (5-Day Delivery)",
+          "price": "997.00",
+          "priceCurrency": "USD"
         }
       ]
     },
@@ -61,15 +79,15 @@
           "name": "Are there any recurring monthly subscription fees?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Every license and Done-For-You website launch is a one-time payment with $0/month hosting or subscription fees forever."
+            "text": "No. Every license and Done-For-You website or custom AI build is a one-time payment with $0/month hosting or subscription fees forever."
           }
         },
         {
           "@type": "Question",
-          "name": "Do the 44 developer and SEO tools upload client data to external servers?",
+          "name": "Can I pay via Stripe (Card / Apple Pay / Cash App) or Phantom Solana Wallet?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. All 44 workstations execute 100% client-side in your browser with zero server telemetry."
+            "text": "Yes. You can check out instantly via Stripe or send SOL/USDC directly via Phantom to GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK."
           }
         }
       ]
@@ -89,7 +107,7 @@
     .badge { display: inline-block; padding: 6px 14px; border-radius: 999px; background: rgba(6,182,212,0.12); border: 1px solid rgba(6,182,212,0.35); color: #38bdf8; font-family: "Space Grotesk", sans-serif; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 16px; }
     h1 { font-family: "Syne", sans-serif; font-size: clamp(2rem, 4.5vw, 3.4rem); line-height: 1.12; margin-bottom: 16px; }
     .sub { color: var(--muted); max-width: 760px; margin: 0 auto 32px; font-size: 1.08rem; }
-    .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 44px; }
+    .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 36px; }
     .tier-card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 26px; display: flex; flex-direction: column; justify-content: space-between; }
     .tier-card.featured { border-color: rgba(245,158,11,0.65); box-shadow: 0 0 35px rgba(245,158,11,0.12); }
     .tier-tag { font-family: "Space Grotesk", sans-serif; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: #fbbf24; margin-bottom: 8px; }
@@ -98,10 +116,13 @@
     .tier-price span { font-size: 0.95rem; color: var(--muted); font-weight: 400; text-decoration: line-through; margin-left: 8px; }
     .tier-list { list-style: none; margin: 14px 0 22px; color: #cbd5e1; font-size: 0.93rem; }
     .tier-list li { margin-bottom: 8px; }
-    .btn { display: inline-block; text-align: center; padding: 13px 18px; border-radius: 12px; font-family: "Space Grotesk", sans-serif; font-weight: 700; text-decoration: none; }
+    .btn { display: inline-block; text-align: center; padding: 13px 18px; border-radius: 12px; font-family: "Space Grotesk", sans-serif; font-weight: 700; text-decoration: none; cursor: pointer; border: none; }
     .btn-gold { background: linear-gradient(135deg, #f59e0b, #eab308); color: #07090e; }
     .btn-cyan { background: linear-gradient(135deg, #06b6d4, #0ea5e9); color: #07090e; }
+    .btn-purple { background: linear-gradient(135deg, #9945FF, #14F195); color: #07090e; }
     .btn-outline { border: 1px solid rgba(255,255,255,0.2); color: var(--text); background: rgba(255,255,255,0.04); }
+    .phantom-bar { background: linear-gradient(135deg, rgba(153,69,255,0.15), rgba(20,241,149,0.12)); border: 1px solid rgba(20,241,149,0.4); border-radius: 18px; padding: 22px 26px; margin-bottom: 44px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+    .phantom-wallet-box { font-family: monospace; background: rgba(7,9,14,0.85); border: 1px solid rgba(255,255,255,0.16); padding: 8px 14px; border-radius: 10px; color: #14F195; font-size: 0.88rem; word-break: break-all; }
     .catalog-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
     .auditor-input { padding: 12px 16px; border-radius: 12px; border: 1px solid var(--border); background: rgba(7,9,14,0.9); color: var(--text); font-size: 0.95rem; width: 320px; max-width: 100%; }
     .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(275px, 1fr)); gap: 16px; margin-bottom: 60px; }
@@ -115,17 +136,18 @@
 </head>
 <body>
   <div class="funnel-banner">
-    ⚡ <strong>FOUNDING MEMBER FLASH SALE:</strong> Use promo code <code>FOUNDER25</code> at Stripe Checkout for <strong>25% OFF</strong> any lifetime license!
-    <a href="https://buy.stripe.com/eVq14m5k16hW4Le0xWfw40M">Unlock All 44 Tools ($49) →</a>
-    <a href="https://buy.stripe.com/9B6fZg7s96hWa5ya8wfw40O">Done-For-You Local Site Launch ($149) →</a>
+    ⚡ <strong>FOUNDING SPRINT FLASH SALE:</strong> Promo code <code>FOUNDER25</code> takes <strong>25% OFF</strong> any license or custom build!
+    <a href="https://buy.stripe.com/eVq14m5k16hW4Le0xWfw40M">All 44 Tools ($49) →</a>
+    <a href="https://buy.stripe.com/00w8wO6o50XC2D60xWfw40S">AI Receptionist Setup ($299) →</a>
+    <a href="https://buy.stripe.com/3cIcN48wdbCgelOeoMfw40T">Turnkey 5-Page Launch ($499) →</a>
   </div>
   <div class="container">
     <header>
-      <div class="badge">Neal Frazier Tech • Sovereign AI & Local Search Foundry</div>
-      <h1>44 Client-Side AI, SEO & Security Studios + 1,000-City Local Lead Engine</h1>
-      <p class="sub">Zero monthly subscriptions ($0/mo forever). 100% browser-native execution with instant Stripe unlock, or Done-For-You local business website & Schema.org AI Search deployment in 24 hours.</p>
+      <div class="badge">Neal Frazier Tech • Sovereign AI, Custom Builds & Local Search Foundry</div>
+      <h1>44 Client-Side AI & SEO Studios + Turnkey Custom AI & Web Builds</h1>
+      <p class="sub">Zero monthly subscriptions ($0/mo forever). Instant browser-native tools, Done-For-You Local AI Search sites, 24/7 AI Receptionists, and Custom Autonomous AI Agent Swarms — payable via Stripe or Phantom Solana Wallet.</p>
     </header>
-    <section class="pricing-grid" aria-label="Pricing Tiers">
+    <section class="pricing-grid" aria-label="Self-Serve & Starter Tiers">
       <div class="tier-card">
         <div>
           <div class="tier-tag">Local Business Self-Serve</div>
@@ -169,6 +191,78 @@
         <a class="btn btn-cyan" href="https://buy.stripe.com/9B6fZg7s96hWa5ya8wfw40O">Order Done-For-You Launch ($149) →</a>
       </div>
     </section>
+
+    <div style="margin-bottom:14px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+      <h2 style="font-family:'Syne',sans-serif;font-size:1.65rem;color:#fbbf24;">⚡ High-Impact Custom AI & Turnkey Web Builds (48h–5d Delivery • $0/mo Forever)</h2>
+      <span style="font-size:0.88rem;color:#94a3b8;">Reserve your custom build slot via Stripe or Phantom Solana Wallet</span>
+    </div>
+    <section class="pricing-grid" aria-label="Custom Build & Concierge Tiers">
+      <div class="tier-card" style="border-color:rgba(6,182,212,0.45);">
+        <div>
+          <div class="tier-tag" style="color:#38bdf8;">48-Hour Turnkey Delivery</div>
+          <div class="tier-title">24/7 Custom AI Receptionist, Quote Bot & SMS Lead Capture</div>
+          <div class="tier-price">$299 <span>$999</span></div>
+          <ul class="tier-list">
+            <li>✓ Custom-trained on your exact services, pricing & service areas</li>
+            <li>✓ Answers customer questions & calculates instant estimates 24/7</li>
+            <li>✓ Instant SMS & email lead dispatch to your phone on every quote</li>
+            <li>✓ Drops onto any existing site in 1 line of code ($0/mo forever)</li>
+          </ul>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          <a class="btn btn-cyan" href="https://buy.stripe.com/00w8wO6o50XC2D60xWfw40S">Order AI Receptionist Build ($299) →</a>
+          <a class="btn btn-outline" href="/solutions/ai-receptionist-299.html" style="font-size:0.84rem;padding:8px;">View Full Spec & Demo →</a>
+        </div>
+      </div>
+      <div class="tier-card featured">
+        <div>
+          <div class="tier-tag">★ Best Value For Contractors, Medical, Legal & Local Brands</div>
+          <div class="tier-title">Turnkey 5-Page Custom Website + Google Maps & AI Dominance</div>
+          <div class="tier-price">$499 <span>$1,999</span></div>
+          <ul class="tier-list">
+            <li>✓ 5 custom high-converting pages (Home, Services, Calculator, Reviews, Contact)</li>
+            <li>✓ Full Schema.org LocalBusiness + Service + FAQPage graph for ChatGPT & Google</li>
+            <li>✓ 100/100 Core Web Vitals speed + 24/7 AI Quote Bot included</li>
+            <li>✓ Deployed to your domain in 72 hours with $0/month hosting forever</li>
+          </ul>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          <a class="btn btn-gold" href="https://buy.stripe.com/3cIcN48wdbCgelOeoMfw40T">Order 5-Page Turnkey Build ($499) →</a>
+          <a class="btn btn-outline" href="/solutions/custom-5page-launch-499.html" style="font-size:0.84rem;padding:8px;">View Full Spec & Architecture →</a>
+        </div>
+      </div>
+      <div class="tier-card" style="border-color:rgba(20,241,149,0.45);">
+        <div>
+          <div class="tier-tag" style="color:#14F195;">5-Day Custom Engineering Sprint</div>
+          <div class="tier-title">Custom Autonomous AI Agent Swarm, MCP Server & SaaS MVP</div>
+          <div class="tier-price">$997 <span>$3,500</span></div>
+          <ul class="tier-list">
+            <li>✓ Custom multi-agent workflow, custom MCP server, or bespoke SaaS web app</li>
+            <li>✓ Connects your CRM, Stripe, Shopify, Etsy, email & internal APIs</li>
+            <li>✓ Zero-egress security boundary + full source code ownership</li>
+            <li>✓ Delivered ready-to-run in 5 business days with 30-day support</li>
+          </ul>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          <a class="btn btn-purple" href="https://buy.stripe.com/14A28qdQxdKo7XqfsQfw40U">Reserve Custom AI Swarm Build ($997) →</a>
+          <a class="btn btn-outline" href="/solutions/custom-ai-swarm-997.html" style="font-size:0.84rem;padding:8px;">View Custom Engineering Spec →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="phantom-bar" aria-label="Phantom Solana Crypto Checkout">
+      <div style="flex:1 1 420px;">
+        <div style="font-family:'Space Grotesk',sans-serif;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.08em;color:#14F195;font-weight:700;margin-bottom:4px;">⚡ Instant Web3 / Phantom Solana Settlement (SOL & USDC Accepted)</div>
+        <div style="font-family:'Syne',sans-serif;font-size:1.25rem;font-weight:800;margin-bottom:6px;">Prefer paying in SOL or USDC with Phantom Wallet?</div>
+        <div style="color:#cbd5e1;font-size:0.9rem;margin-bottom:10px;">Send any tier amount ($19, $49, $149, $299, $499, or $997) in SOL or USDC directly to our verified Solana Mainnet treasury address below, or launch the 1-click DePay Solana checkout widget:</div>
+        <div class="phantom-wallet-box" id="solWalletAddr">GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;min-width:250px;">
+        <button class="btn btn-purple" type="button" onclick="navigator.clipboard.writeText('GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK');this.textContent='✓ Copied Solana Address!';setTimeout(()=>this.textContent='📋 Copy Phantom / SOL Address',2500);">📋 Copy Phantom / SOL Address</button>
+        <a class="btn btn-outline" href="https://depay.com/pay?integration=428790dd-7ad1-407c-8ecf-c048c77a4cb8&receiver=GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK" target="_blank" rel="noopener">⚡ Open DePay Solana Checkout ↗</a>
+      </div>
+    </section>
+
     <section aria-label="All 44 Browser-Native Workstations">
       <div class="catalog-header">
         <h2 style="font-family:'Syne',sans-serif;font-size:1.75rem;">All 44 Live Browser-Native Workstations</h2>
