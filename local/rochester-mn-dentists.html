@@ -10,11 +10,11 @@
   <meta property="og:description" content="Turnkey Rochester, MN Dental & Periodontics website with interactive 60-second instant quote calculator and Schema.org LocalBusiness JSON-LD for ChatGPT & Google AI Overviews. $19 self-serve or $149 Done-For-You ($0/mo forever)." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://1nc0gn30.github.io/local/rochester-mn-dentists.html" />
-  <meta property="og:image" content="https://city-desk-studio.netlify.app/media/painters/hero.jpg" />
+  <meta property="og:image" content="https://city-desk.netlify.app/media/painters/hero.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@1nc0gn30" />
   <meta name="twitter:creator" content="@1nc0gn30" />
-  <meta name="twitter:image" content="https://city-desk-studio.netlify.app/media/painters/hero.jpg" />
+  <meta name="twitter:image" content="https://city-desk.netlify.app/media/painters/hero.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -97,8 +97,9 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       gap: 12px;
+      min-height: 58px;
     }
     .brand-id {
       display: flex;
@@ -130,7 +131,7 @@
       border: 1px solid var(--border);
       color: var(--muted);
     }
-    .nav-links { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+    .nav-links { display: flex; align-items: center; flex-wrap: nowrap; gap: 6px; }
     .nav-link {
       font-family: var(--grotesk);
       font-size: 0.82rem;
@@ -139,6 +140,7 @@
       text-decoration: none;
       padding: 6px 10px;
       border-radius: 8px;
+      white-space: nowrap;
     }
     .nav-link:hover { color: var(--text); background: rgba(255, 255, 255, 0.05); }
     .container { max-width: 1180px; margin: 0 auto; padding: 32px 20px 56px; }
@@ -374,6 +376,10 @@
       .bento-workspace { grid-template-columns: 1fr; }
       .turnkey-grid { grid-template-columns: 1fr; }
     }
+    @media (max-width: 900px) {
+      .brand-tag { display: none; }
+      .nav-links .nav-link:nth-child(2), .nav-links .nav-link:nth-child(3) { display: none; }
+    }
     @media (max-width: 600px) {
       .funnel-banner { padding: 7px 12px; font-size: 0.78rem; gap: 5px; }
       .container { padding: 18px 16px 44px; }
@@ -398,7 +404,7 @@
       </a>
       <div class="nav-links">
         <a class="nav-link" href="https://1nc0gn30.github.io/">← All 44 Workstations</a>
-        <a class="nav-link" href="https://city-desk-studio.netlify.app" target="_blank" rel="noopener">1,000-City Directory ↗</a>
+        <a class="nav-link" href="https://city-desk.netlify.app" target="_blank" rel="noopener">1,000-City Directory ↗</a>
         <a class="nav-link" href="/solutions/custom-build-deposit-99.html">$99 Kickoff Deposit</a>
       </div>
     </div>
@@ -422,7 +428,7 @@
           <a class="btn btn-gold" href="https://buy.stripe.com/9B6fZg7s96hWa5ya8wfw40O">Order Done-For-You Custom Launch ($149, $0/mo) →</a>
           <a class="btn btn-emerald" href="https://buy.stripe.com/fZu00i7s9gWA3Ha4Ocfw40W">★ Or Grab $7 Flash AI + HTML Starter Pack →</a>
           <a class="btn btn-cyan" href="https://buy.stripe.com/fZu00i7s9gWA3Ha4Ocfw40W">★ Download $7 Instant AI + HTML Starter Pack →</a>
-          <a class="btn btn-outline" href="https://city-desk-studio.netlify.app/cities/rochester-mn/dentists/" target="_blank" rel="noopener">View Live Rochester, MN Interactive Preview ↗</a>
+          <a class="btn btn-outline" href="https://city-desk.netlify.app/cities/rochester-mn/dentists/" target="_blank" rel="noopener">View Live Rochester, MN Interactive Preview ↗</a>
         </div>
       </div>
 

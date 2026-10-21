@@ -9,11 +9,11 @@
   <meta property="og:description" content="Unlock all 44 client-side AI, AEO Schema.org, Core Web Vitals &amp; Security tools ($49 Lifetime) or launch a Done-For-You Local Business AI Search site ($149 One-Time, $0/mo)." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://1nc0gn30.github.io/" />
-  <meta property="og:image" content="https://city-desk-studio.netlify.app/media/painters/hero.jpg" />
+  <meta property="og:image" content="https://city-desk.netlify.app/media/painters/hero.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@1nc0gn30" />
   <meta name="twitter:creator" content="@1nc0gn30" />
-  <meta name="twitter:image" content="https://city-desk-studio.netlify.app/media/painters/hero.jpg" />
+  <meta name="twitter:image" content="https://city-desk.netlify.app/media/painters/hero.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -188,12 +188,13 @@
     .foundry-nav-inner {
       max-width: 1240px;
       margin: 0 auto;
-      padding: 12px 20px;
+      padding: 10px 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       gap: 12px;
+      min-height: 60px;
     }
     .brand-id {
       display: flex;
@@ -201,6 +202,8 @@
       gap: 10px;
       text-decoration: none;
       color: var(--text);
+      min-width: 0;
+      flex-shrink: 0;
     }
     .brand-mark {
       width: 10px;
@@ -208,6 +211,7 @@
       border-radius: 50%;
       background: var(--emerald);
       box-shadow: 0 0 10px var(--emerald);
+      flex-shrink: 0;
     }
     .brand-name {
       font-family: var(--grotesk);
@@ -215,6 +219,7 @@
       font-size: 0.96rem;
       letter-spacing: 0.04em;
       text-transform: uppercase;
+      white-space: nowrap;
     }
     .brand-tag {
       font-family: var(--mono);
@@ -224,22 +229,24 @@
       background: rgba(255, 255, 255, 0.06);
       border: 1px solid var(--border);
       color: var(--muted);
+      white-space: nowrap;
     }
     .nav-links {
       display: flex;
       align-items: center;
-      flex-wrap: wrap;
-      gap: 8px;
+      flex-wrap: nowrap;
+      gap: 6px;
     }
     .nav-link {
       font-family: var(--grotesk);
-      font-size: 0.82rem;
+      font-size: 0.81rem;
       font-weight: 600;
       color: #cbd5e1;
       text-decoration: none;
-      padding: 6px 11px;
+      padding: 6px 10px;
       border-radius: 8px;
       border: 1px solid transparent;
+      white-space: nowrap;
     }
     .nav-link:hover {
       color: var(--text);
@@ -248,15 +255,17 @@
     }
     .nav-cta {
       font-family: var(--grotesk);
-      font-size: 0.8rem;
+      font-size: 0.79rem;
       font-weight: 700;
-      padding: 7px 13px;
+      padding: 6px 12px;
       border-radius: 8px;
       background: rgba(245, 158, 11, 0.16);
       border: 1px solid rgba(245, 158, 11, 0.45);
       color: var(--gold-light);
       cursor: pointer;
       text-decoration: none;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
 
     .container { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
@@ -695,15 +704,19 @@
       .hero-bento { grid-template-columns: 1fr; }
       .pricing-grid { grid-template-columns: 1fr; }
       .telemetry-strip { grid-template-columns: repeat(2, 1fr); }
+      .brand-tag { display: none; }
+      .nav-links .nav-link:nth-child(2),
+      .nav-links .nav-link:nth-child(3),
+      .nav-links .nav-link:nth-child(5) { display: none; }
     }
     @media (max-width: 600px) {
       .funnel-banner { padding: 7px 12px; font-size: 0.78rem; gap: 5px; }
       .banner-pill.cyan { display: none; }
-      .nav-links .nav-link:nth-child(2), .nav-links .nav-link:nth-child(3) { display: none; }
+      .nav-links .nav-link { display: none; }
       .hero-bento { padding: 18px 0 24px; }
       .hero-copy-card, .synth-card, .tier-card { padding: 20px; }
       .synth-grid, .synth-metrics { grid-template-columns: 1fr; }
-      .foundry-nav-inner { padding: 10px 14px; }
+      .foundry-nav-inner { padding: 10px 14px; min-height: 54px; }
       .auditor-input { width: 100%; }
     }
   </style>
@@ -727,12 +740,12 @@
         <span class="brand-tag" id="proStatusBadge">SOVEREIGN FOUNDRY v4.2</span>
       </a>
       <div class="nav-links">
-        <a class="nav-link" href="#synthesizer">Live AI + ROI Lab</a>
-        <a class="nav-link" href="#self-serve-tiers">Starter &amp; Pro Tiers</a>
+        <a class="nav-link" href="#synthesizer">ROI Lab</a>
+        <a class="nav-link" href="#self-serve-tiers">Tiers</a>
         <a class="nav-link" href="#custom-builds">Turnkey Builds</a>
-        <a class="nav-link" href="#workstations">All 44 Apps</a>
-        <a class="nav-link" href="https://city-desk-studio.netlify.app" target="_blank" rel="noopener">1,000-City Directory ↗</a>
-        <button type="button" class="nav-cta" onclick="window.openVipOnboardingModal()">★ Already Paid? VIP Unlock</button>
+        <a class="nav-link" href="#workstations">44 Apps</a>
+        <a class="nav-link" href="https://city-desk.netlify.app" target="_blank" rel="noopener">City Desk ↗</a>
+        <button type="button" class="nav-cta" onclick="window.openVipOnboardingModal()">★ VIP Unlock</button>
       </div>
     </div>
   </nav>
@@ -767,7 +780,7 @@
           <a class="btn btn-emerald" href="https://buy.stripe.com/fZu00i7s9gWA3Ha4Ocfw40W">★ Get $7 Instant AI + HTML Pack →</a>
           <a class="btn btn-gold" href="https://buy.stripe.com/eVq14m5k16hW4Le0xWfw40M">Unlock All 44 Tools ($49) →</a>
           <a class="btn btn-cyan" href="https://buy.stripe.com/9B6fZg7s96hWa5ya8wfw40O">Done-For-You Site ($149) →</a>
-          <a class="btn btn-outline" href="https://city-desk-studio.netlify.app" target="_blank" rel="noopener">Explore City Desk Previews ↗</a>
+          <a class="btn btn-outline" href="https://city-desk.netlify.app" target="_blank" rel="noopener">Explore City Desk Previews ↗</a>
         </div>
       </div>
 
@@ -1059,7 +1072,7 @@
     <h3>City Desk (1,000 Local Trade Pages)</h3>
   </div>
   <div class="tool-actions">
-    <a class="btn btn-outline" href="https://city-desk-studio.netlify.app" target="_blank" rel="noopener">Launch App ↗</a>
+    <a class="btn btn-outline" href="https://city-desk.netlify.app" target="_blank" rel="noopener">Launch App ↗</a>
     <a class="btn btn-gold" href="https://buy.stripe.com/6oU7sK3bTcGk5Pia8wfw40N" target="_blank" rel="noopener">Pro ($19)</a>
   </div>
 </article>
@@ -1560,7 +1573,7 @@
         issuedAt: new Date().toISOString(),
         issuer: "Neal Frazier Tech (https://www.nealfrazier.tech)",
         support: { email: "neal@nealfrazier.tech", phone: "(757) 576-0980" },
-        unlockedProperties: ["https://city-desk-studio.netlify.app/?licensed=true", "https://zoth.nullai.tech/?licensed=true", "https://1nc0gn30.github.io/?licensed=true"]
+        unlockedProperties: ["https://city-desk.netlify.app/?licensed=true", "https://zoth.nullai.tech/?licensed=true", "https://1nc0gn30.github.io/?licensed=true"]
       };
       var blob = new Blob([JSON.stringify(cert, null, 2)], { type: "application/json" });
       var a = document.createElement("a");
@@ -1589,7 +1602,7 @@
       fd.append("target_domain", domain);
       fd.append("package_purchased", tier);
       fd.append("custom_notes", notes);
-      fetch("https://city-desk-studio.netlify.app/", {
+      fetch("https://city-desk.netlify.app/", {
         method: "POST",
         mode: "no-cors",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
