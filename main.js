@@ -1105,7 +1105,7 @@
   const CMD = {
     help: () => 'cmds: whoami ls fx <hybrid|gh3d|braille|dither|ascii|lattice> loop <auto|spin|action> si zoth zothos nullai repos tip clear exit',
     whoami: () => '1nc0gn30 · github × 1nc0gn30 open-source hub.',
-    ls: () => '1nc0gn30.si/  zoth-studio-v2/ (72 tools)  zoth-os/ (v3.4.0)  zothos-lite/  chain-of-thoughts/',
+    ls: () => '1nc0gn30.si/  zoth-studio-v2/ (74 tools)  zoth-os/ (v3.4.0)  zothos-lite/  chain-of-thoughts/',
     fx: arg => {
       if (['hybrid', 'gh3d', 'braille', 'dither', 'ascii', 'lattice'].includes(arg)) {
         activeFx = arg;
@@ -1125,7 +1125,7 @@
       return 'usage: loop <auto|spin|action>';
     },
     si: () => '1nc0gn30.si → https://1nc0gn30.si (full tools & resources hub)',
-    zoth: () => 'zoth studio v2: 72 tools (53 in-browser, 19 cli) → https://zoth.nullai.tech',
+    zoth: () => 'zoth studio v2: 74 tools (53 in-browser, 19 cli) → https://zoth.nullai.tech',
     zothos: () => 'zothos v3.4.0: debian 13 live iso · 43 workstations · 23 local daemons → https://zothos.nullai.tech',
     nullai: () => 'nullai lab → https://nullai.tech · everything free.',
     repos: () => 'https://github.com/1nc0gn30 · https://github.com/NullAITech',
