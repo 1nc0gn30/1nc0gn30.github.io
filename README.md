@@ -28,7 +28,7 @@ Official **GitHub × 1nc0gn30 Collab Edition** portal hosted at **[https://1nc0g
 3. **Sovereign Ecosystem Funnel**:
    - **[1nc0gn30.si](https://1nc0gn30.si)** — Primary 1nc0gn30 portal for interactive tools, 360° Orbital Turntable Vortex, FieldKit, and resources.
    - **[nullai.tech](https://nullai.tech)** — NullAI Platform, Research Lab & Ghost Byte 3D Engine.
-   - **[zoth.nullai.tech](https://zoth.nullai.tech)** — Zoth Studio v2 (77 free open-access tools: 55 in-browser + 22 CLI/daemon, all 77 public repos).
+   - **[zoth.nullai.tech](https://zoth.nullai.tech)** — Zoth Studio v2 (77 free open-access tools: 55 in-browser + 22 CLI/daemon, with 74 public GitHub repositories).
    - **[zothos.nullai.tech](https://zothos.nullai.tech)** — ZothOS v3.4.0 Debian 13 KDE Plasma 6 AI & Security Live OS (77 CLI tools, Agent Bridge `:8102`, Neuro-Memory `:8094`).
    - **[zothos-lite.nullai.tech](https://zothos-lite.nullai.tech)** — ZothOS-Lite v1.2 Tails-style Amnesic Monotone RAM-only (`toram`) OS (48+ models, 8 providers, ZothNet P2P mesh, USB/cloud persistence).
    - **[zothnet.nullai.tech](https://zothnet.nullai.tech)** — ZothNet Zero-Cloud Encrypted Mesh Network & 3-Hop Sphinx Mixnet.
