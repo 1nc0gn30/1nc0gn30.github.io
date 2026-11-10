@@ -23,14 +23,16 @@ Official **GitHub × 1nc0gn30 Collab Edition** portal hosted at **[https://1nc0g
    - Includes drag-to-orbit rotation, auto-spin toggle, and 1-click **Copy ASCII/Braille Frame**.
 
 2. **Interactive 52-Week Contribution & Activity Matrix**:
-   - Live GitHub-style contribution heatmap across `@1nc0gn30` and `@NullAITech` repositories (`72` open-access tools, `ZothOS v3.4`, `ZothOS-Lite v1.1`, `30 Days of Linux Dojo v3.4`).
+   - Live GitHub-style contribution heatmap across `@1nc0gn30` and `@NullAITech` repositories (`77` open-access tools: `55` browser + `22` CLI/daemon, `ZothOS v3.4.0`, `ZothOS-Lite v1.2`, `ZothNet`, `Hermes-Zoth`).
 
 3. **Sovereign Ecosystem Funnel**:
-   - **[1nc0gn30.si](https://1nc0gn30.si)** — Primary 1nc0gn30 portal for interactive tools, 360° Orbital Turntable Vortex, and resources.
-   - **[nullai.tech](https://nullai.tech)** — NullAI Research Lab & Ghost Byte 3D Engine.
-   - **[zoth.nullai.tech](https://zoth.nullai.tech)** — Zoth Studio v2 (72 open-access tools, 8-planet 3D `/world`, Pantheon 21, Adytum 22 Tarot `/adytum`).
-   - **[zothos.nullai.tech](https://zothos.nullai.tech)** — ZothOS v3.4 Debian 13 Live ISO & ZothOS-Lite v1.1 A100 Web Desktop.
-   - **[30-days-of-linux.netlify.app](https://30-days-of-linux.netlify.app)** — 30 Days of Linux Fundamentals (TUI + GUI Student Dojo v3.4).
+   - **[1nc0gn30.si](https://1nc0gn30.si)** — Primary 1nc0gn30 portal for interactive tools, 360° Orbital Turntable Vortex, FieldKit, and resources.
+   - **[nullai.tech](https://nullai.tech)** — NullAI Platform, Research Lab & Ghost Byte 3D Engine.
+   - **[zoth.nullai.tech](https://zoth.nullai.tech)** — Zoth Studio v2 (77 free open-access tools: 55 in-browser + 22 CLI/daemon, all 77 public repos).
+   - **[zothos.nullai.tech](https://zothos.nullai.tech)** — ZothOS v3.4.0 Debian 13 KDE Plasma 6 AI & Security Live OS (77 CLI tools, Agent Bridge `:8102`, Neuro-Memory `:8094`).
+   - **[zothos-lite.nullai.tech](https://zothos-lite.nullai.tech)** — ZothOS-Lite v1.2 Tails-style Amnesic Monotone RAM-only (`toram`) OS (48+ models, 8 providers, ZothNet P2P mesh, USB/cloud persistence).
+   - **[zothnet.nullai.tech](https://zothnet.nullai.tech)** — ZothNet Zero-Cloud Encrypted Mesh Network & 3-Hop Sphinx Mixnet.
+   - **[github.com/1nc0gn30/hermes-zoth](https://github.com/1nc0gn30/hermes-zoth)** — Hermes-Zoth Nous Hermes Multi-Agent Orchestrator & Plugin.
 
 ---
 
