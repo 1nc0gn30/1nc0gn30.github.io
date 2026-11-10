@@ -1103,9 +1103,9 @@
   const dlg = document.getElementById('term'), out = document.getElementById('termOut'), inp = document.getElementById('termIn');
   const say = s => { out.textContent += s + '\n'; out.scrollTop = out.scrollHeight; };
   const CMD = {
-    help: () => 'cmds: whoami ls fx <hybrid|gh3d|braille|dither|ascii|lattice> loop <auto|spin|action> si zoth zothos lite zothnet hermes nullai repos tip clear exit',
+    help: () => 'cmds: whoami ls fx <hybrid|gh3d|braille|dither|ascii|lattice> loop <auto|spin|action> si zoth zothos lite civ zothnet hermes nullai repos tip clear exit',
     whoami: () => '1nc0gn30 (@1nc0gn30) · nullai platform · github × 1nc0gn30 open-source hub.',
-    ls: () => '1nc0gn30.si/  zoth-studio-v2/ (77 tools)  zoth-os/ (v3.4.0)  zothos-lite/ (v1.2)  zothnet/  hermes-zoth/',
+    ls: () => '1nc0gn30.si/  zoth-studio-v2/ (77 tools)  zoth-os/ (v3.4.0 · 23 daemons)  zothos-lite/ (v1.2 · 56 models)  zoth-civilization/ (v3.0 · 23 agents)  zothnet/  hermes-zoth/',
     fx: arg => {
       if (['hybrid', 'gh3d', 'braille', 'dither', 'ascii', 'lattice'].includes(arg)) {
         activeFx = arg;
@@ -1126,8 +1126,9 @@
     },
     si: () => '1nc0gn30.si → https://1nc0gn30.si (full tools & resources hub)',
     zoth: () => 'zoth studio v2: 77 free tools (55 in-browser, 22 cli/daemon, 74 public github repos) → https://zoth.nullai.tech',
-    zothos: () => 'zothos v3.4.0: debian 13 kde plasma 6 live os · 77 cli tools · agent bridge (:8102) · neuro-memory (:8094) → https://zothos.nullai.tech',
-    lite: () => 'zothos-lite v1.2: amnesic monotone toram os · 48+ models · 8 providers · zothnet p2p mesh → https://zothos-lite.nullai.tech',
+    zothos: () => 'zothos v3.4.0: sovereign ai linux workstation · debian 13 kde plasma 6 · 23 daemons · 77 cli tools · agent bridge (:8102) · neuro-memory (:8094) → https://zothos.nullai.tech',
+    lite: () => 'zothos-lite v1.2: amnesic monotone (#F7F7F4/#000000) live usb/iso os · 56 curated models · 8 providers · toram · universal x86_64 → https://zothos-lite.nullai.tech',
+    civ: () => 'zoth civilization v3.0: 23 pantheon agents · 22-key sanctuary · imperator quests · deepseek flash × hermes agent byok → https://zoth-civilization.netlify.app',
     zothnet: () => 'zothnet: zero-cloud encrypted mesh & 3-hop sphinx mixnet → https://zothnet.nullai.tech',
     hermes: () => 'hermes-zoth: nous hermes multi-agent orchestrator & plugin → https://github.com/1nc0gn30/hermes-zoth',
     nullai: () => 'nullai platform → https://nullai.tech · everything free.',

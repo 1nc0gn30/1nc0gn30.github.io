@@ -4,12 +4,13 @@
 `https://1nc0gn30.github.io` is the GitHub × 1nc0gn30 Collaboration Hub featuring a 60fps 3D Volumetric Character & GitHub Contribution Lattice Turntable (`[⣿ hybrid]`, `[◈ 3d github]`, `[⠿ braille]`, `[▦ dither]`, `[# ascii]`, `[⬡ 3d voxel]`) and direct funnels across the NullAI ecosystem:
 
 1. **https://1nc0gn30.si** — Flagship 1nc0gn30 portal for interactive browser tools, character shader rigs, FieldKit (`https://1nc0gn30.si/fieldkit.html`), and World of Zoth v2.0.
-2. **https://zoth.nullai.tech** — Zoth Studio v2 (**77 free tools**: **55 in-browser** utilities + **22 CLI/daemon** tools, with **74 public GitHub repos**), 21-Agent Pantheon, Adytum 22 Tarot planner, and Vaelor L1 chain.
-3. **https://zothos.nullai.tech** — ZothOS v3.4.0 (Debian 13 Trixie AI & Security Live OS with KDE Plasma 6, 77 CLI tools, Sovereign Agent Bridge `:8102`, and Neuro-Memory `:8094`).
-4. **https://zothos-lite.nullai.tech** — ZothOS-Lite v1.2 (Tails-style Amnesic Monotone RAM-only `toram` OS & portable ISO supporting 48+ models across 8 providers, interactive onboarding wizard, ZothNet P2P mesh, and external USB/cloud drive persistence).
-5. **https://zothnet.nullai.tech** — ZothNet (Zero-cloud encrypted mesh network & 3-hop Sphinx mixnet with Ed25519/X25519 identity and `.zoth` naming).
-6. **https://github.com/1nc0gn30/hermes-zoth** — Hermes-Zoth (Nous Hermes multi-agent orchestrator & plugin bridging ZothOS CLI tools and MCP servers).
-7. **https://nullai.tech** — NullAI Platform, Research Lab, FieldKit, and Ghost Byte 3D holographic engine.
+2. **https://zoth.nullai.tech** — Zoth Studio v2 (**77 free tools**: **55 in-browser** utilities + **22 CLI/daemon** tools, with **74 public GitHub repos**), Adytum 22 Tarot planner, and Vaelor L1 chain.
+3. **https://zothos.nullai.tech** — ZothOS v3.4.0 (Sovereign AI Linux Workstation on Debian 13 Trixie with KDE Plasma 6, **23 daemons**, preloaded 77-tool arsenal, Sovereign Agent Bridge `:8102`, and Neuro-Memory `:8094`).
+4. **https://zothos-lite.nullai.tech** — ZothOS-Lite v1.2 (Amnesic Live USB/ISO OS in `#F7F7F4` / `#000000` Tails-style Monotone supporting **56 curated models across 8 providers**, `toram` RAM-only option, universal x86_64, interactive onboarding wizard, ZothNet P2P mesh, and external USB/cloud drive persistence).
+5. **https://zoth-civilization.netlify.app** — Zoth Civilization v3.0 (**23 Pantheon Agents**, 22-Key Sanctuary, Imperator Quests, and lightweight BYOK via **DeepSeek Flash through Hermes Agent by Nous Research**).
+6. **https://zothnet.nullai.tech** — ZothNet (Zero-cloud encrypted mesh network & 3-hop Sphinx mixnet with Ed25519/X25519 identity and `.zoth` naming).
+7. **https://github.com/1nc0gn30/hermes-zoth** — Hermes-Zoth (Nous Hermes multi-agent orchestrator & plugin bridging ZothOS CLI tools, MCP servers, and DeepSeek Flash BYOK).
+8. **https://nullai.tech** — NullAI Platform, Research Lab, FieldKit, and Ghost Byte 3D holographic engine.
 
 All tools, repositories, and Linux images are 100% free, open-source, and unlocked by default with zero mandatory accounts, zero paywalls, and zero telemetry.
 Optional support:

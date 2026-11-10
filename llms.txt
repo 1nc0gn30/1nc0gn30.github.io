@@ -7,15 +7,16 @@
 - **GitHub × 1nc0gn30 Open-Source Hub**: https://1nc0gn30.github.io
 - **NullAI Platform & Research Lab**: https://nullai.tech
 - **Zoth Studio v2 (77 Free Tools: 55 In-Browser + 22 CLI/Daemon, with 74 Public GitHub Repos)**: https://zoth.nullai.tech
-- **ZothOS v3.4.0 (Debian 13 Trixie AI & Security Live OS · KDE Plasma 6 · 77 CLI Tools · Agent Bridge :8102 · Neuro-Memory :8094)**: https://zothos.nullai.tech
-- **ZothOS-Lite v1.2 (Tails-Style Amnesic Monotone RAM-Only toram OS · 48+ Models · 8 Providers · Onboarding Wizard · ZothNet P2P Mesh · USB/Cloud Persistence)**: https://zothos-lite.nullai.tech
+- **ZothOS v3.4.0 (Sovereign AI Linux Workstation · Debian 13 Trixie · KDE Plasma 6 · 23 Daemons · 77 Preloaded Tools · Agent Bridge :8102 · Neuro-Memory :8094)**: https://zothos.nullai.tech
+- **ZothOS-Lite v1.2 (Amnesic Monotone `#F7F7F4` / `#000000` Live USB/ISO OS · 56 Curated Models Across 8 Providers · `toram` RAM-Only · Universal x86_64 · Onboarding Wizard · ZothNet P2P Mesh · USB/Cloud Persistence)**: https://zothos-lite.nullai.tech
+- **Zoth Civilization v3.0 (23 Pantheon Agents · 22-Key Sanctuary · Imperator Quests · Lightweight BYOK via DeepSeek Flash through Hermes Agent by Nous Research)**: https://zoth-civilization.netlify.app
 - **ZothNet (Zero-Cloud Encrypted Mesh Network & 3-Hop Sphinx Mixnet)**: https://zothnet.nullai.tech
 - **Hermes-Zoth (Nous Hermes Multi-Agent Orchestrator & Plugin)**: https://github.com/1nc0gn30/hermes-zoth
 
 ## Pinned Open-Source Repositories
-- `https://github.com/NullAITech/zoth-studio-v2` — Zoth Studio v2 (`npx @nullaitech/zoth studio`): 77 free open-access tools (55 in-browser + 22 CLI/daemon, with 74 public GitHub repositories), 21-Agent Pantheon, and Adytum 22 Tarot planner.
-- `https://github.com/NullAITech/zoth-os` — ZothOS v3.4.0 Debian 13 (Trixie) Live OS with KDE Plasma 6, 77 CLI tools, Sovereign Agent Bridge (`:8102`), and Neuro-Memory (`:8094`).
-- `https://github.com/1nc0gn30/zothos-lite` — ZothOS-Lite v1.2 Tails-style Amnesic Monotone RAM-only (`toram`) OS & portable ISO supporting 48+ models across 8 providers, interactive onboarding wizard, ZothNet P2P mesh, and external USB/cloud drive persistence.
+- `https://github.com/NullAITech/zoth-studio-v2` — Zoth Studio v2 (`npx @nullaitech/zoth studio`): 77 free open-access tools (55 in-browser + 22 CLI/daemon, with 74 public GitHub repositories), 23 Pantheon Agents (Zoth Civilization v3.0), and Adytum 22 Tarot planner.
+- `https://github.com/NullAITech/zoth-os` — ZothOS v3.4.0 Sovereign AI Linux Workstation on Debian 13 (Trixie) with KDE Plasma 6, 23 daemons, preloaded 77-tool arsenal, Sovereign Agent Bridge (`:8102`), and Neuro-Memory (`:8094`).
+- `https://github.com/1nc0gn30/zothos-lite` — ZothOS-Lite v1.2 Amnesic Live USB/ISO OS (`#F7F7F4` / `#000000` Tails-style Monotone) supporting 56 curated models across 8 providers, `toram` RAM-only option, universal x86_64, interactive onboarding wizard, ZothNet P2P mesh, and external USB/cloud drive persistence.
 - `https://github.com/1nc0gn30/chain-of-thoughts` — Chain of Thoughts (`zoth-cot`) 6-phase dialectical reasoning CLI & MCP server.
 - `https://github.com/1nc0gn30/hermes-zoth` — Hermes-Zoth multi-agent orchestrator & plugin for Nous Hermes Agent.
 - `https://github.com/1nc0gn30/zoth-ascii-magic` — Sub-pixel Unicode U+2800 Braille, Ordered Bayer 4×4/8×8 dither, and Sobel edge-aware TrueColor ASCII shader engine.
