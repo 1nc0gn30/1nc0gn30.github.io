@@ -23,13 +23,13 @@ Official **GitHub × 1nc0gn30 Collab Edition** portal hosted at **[https://1nc0g
    - Includes drag-to-orbit rotation, auto-spin toggle, and 1-click **Copy ASCII/Braille Frame**.
 
 2. **Interactive 52-Week Contribution & Activity Matrix**:
-   - Live GitHub-style contribution heatmap across `@1nc0gn30` and `@NullAITech` repositories (`77` open-access tools: `55` browser + `22` CLI/daemon, `ZothOS v3.4.0`, `ZothOS-Lite v1.2`, `ZothNet`, `Hermes-Zoth`).
+   - Live GitHub-style contribution heatmap across `@1nc0gn30` and `@NullAITech` repositories (`83` open-access tools: `56` browser + `27` CLI/daemon, `ZothOS v3.4.0`, `ZothOS-Lite v1.2`, `ZothNet`, `Hermes-Zoth`).
 
 3. **Sovereign Ecosystem Funnel**:
    - **[1nc0gn30.si](https://1nc0gn30.si)** — Primary 1nc0gn30 portal for interactive tools, 360° Orbital Turntable Vortex, FieldKit, and resources.
    - **[nullai.tech](https://nullai.tech)** — NullAI Platform, Research Lab & Ghost Byte 3D Engine.
-   - **[zoth.nullai.tech](https://zoth.nullai.tech)** — Zoth Studio v2 (77 free open-access tools: 55 in-browser + 22 CLI/daemon, with 74 public GitHub repositories).
-   - **[zothos.nullai.tech](https://zothos.nullai.tech)** — ZothOS v3.4.0 Sovereign AI Linux Workstation on Debian 13 KDE Plasma 6 (23 daemons, preloaded 77-tool arsenal, Agent Bridge `:8102`, Neuro-Memory `:8094`).
+   - **[zoth.nullai.tech](https://zoth.nullai.tech)** — Zoth Studio v2 (83 free open-access tools: 56 in-browser + 27 CLI/daemon, with 82 public GitHub repositories).
+   - **[zothos.nullai.tech](https://zothos.nullai.tech)** — ZothOS v3.4.0 Sovereign AI Linux Workstation on Debian 13 KDE Plasma 6 (23 daemons, preloaded 83-tool arsenal, Agent Bridge `:8102`, Neuro-Memory `:8094`).
    - **[zothos-lite.nullai.tech](https://zothos-lite.nullai.tech)** — ZothOS-Lite v1.2 Amnesic Live USB/ISO OS (`#F7F7F4` / `#000000` Tails-style Monotone, 56 curated models across 8 providers, `toram` RAM-only option, universal x86_64, ZothNet P2P mesh, USB/cloud persistence).
    - **[zoth-civilization.netlify.app](https://zoth-civilization.netlify.app)** — Zoth Civilization v3.0 (23 Pantheon Agents, 22-Key Sanctuary, Imperator Quests, DeepSeek Flash × Hermes BYOK).
    - **[zothnet.nullai.tech](https://zothnet.nullai.tech)** — ZothNet Zero-Cloud Encrypted Mesh Network & 3-Hop Sphinx Mixnet.
