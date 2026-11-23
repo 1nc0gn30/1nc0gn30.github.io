@@ -371,22 +371,6 @@
       white-space: pre-wrap;
       word-break: break-word;
     }
-    pre.code-out.blurred {
-      filter: blur(6px);
-      user-select: none;
-    }
-    .paywall-overlay {
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(circle, rgba(7, 8, 12, 0.84) 0%, rgba(7, 8, 12, 0.96) 100%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 24px;
-    }
-    .paywall-overlay.hidden { display: none; }
     .concierge-strip {
       margin-top: 28px;
       background: linear-gradient(135deg, rgba(212, 175, 55, 0.12), rgba(14, 17, 26, 0.95), rgba(153, 69, 255, 0.12));
@@ -706,7 +690,7 @@
           </div>
         </div>
 
-        <!-- Synthesized Production Manifest + Frosted Glass Paywall -->
+        <!-- Synthesized Production Manifest (100% Open Access) -->
         <div class="panel">
           <div class="panel-title">
             <span>3. Synthesized Production Manifest</span>
@@ -1075,22 +1059,6 @@
       const orig = btn.textContent;
       btn.textContent = "✓ Copied SOL Wallet!";
       setTimeout(() => { btn.textContent = orig; }, 2400);
-    }
-
-    function openLicenseModal() {
-      document.getElementById("licenseModal").classList.add("open");
-    }
-
-    function closeLicenseModal() {
-      document.getElementById("licenseModal").classList.remove("open");
-    }
-
-    function activateLicenseFromModal() {
-      const v = document.getElementById("modalKeyInput").value.trim();
-      if (v.length >= 4) {
-        unlockProUI();
-        closeLicenseModal();
-      }
     }
 
     recomputeGraph();
